@@ -1,5 +1,5 @@
+import click
 from collections import OrderedDict
-
 import github
 from github import Github
 import json
@@ -104,11 +104,13 @@ class GitHubAPIShell:
         return return_data
 
 
-def main(argv=None):
-    # if argv is None:
-    #     return 0
+@click.command()
+@click.option("--id", '-i', help="Enter the GitHub ID in str format", required=True)  # github id
+def main(id=None):
+    if id is None:
+        return 0
 
-    return GitHubAPIShell("jiahho").run()
+    return GitHubAPIShell(id).run()
 
 
 if __name__ == '__main__':
