@@ -34,7 +34,7 @@ class GitHubAPIShell:
         self.user = None  # GitHub user 객체 담기 위함
 
     def run(self):
-        # g = Github(login_or_token=token)
+        # g = Github(login_or_token=<token>)  여기!!!!
         g = Github()
         self.user = g.get_user(self.github_id)
 
