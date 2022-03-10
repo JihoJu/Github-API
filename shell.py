@@ -7,18 +7,23 @@ import pprint
 import requests
 import sys
 
-FILE_PATH = "./commit.json"
 URL = "https://api.github.com/users/"
 
+""" url 로 github api 호출
+    def get_user_info(self):
+        headers = {'Authorization': "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"}
+        user_data = requests.get(URL + self.github_id, headers=headers).json()
+        pprint(user_data)"""
 
-def write_commit_info_in_json(data):
+
+def write_commit_info_in_json(data, file_name):
     """ Json 파일로 저장
 
     :param data: 모든 public repo 의 정보
     :return:
     """
 
-    with open(FILE_PATH, 'w') as outfile:
+    with open(f'./{file_name}', 'w') as outfile:
         json.dump(data, outfile, ensure_ascii=False, indent=5)
 
 
@@ -34,18 +39,26 @@ class GitHubAPIShell:
         self.user = None  # GitHub user 객체 담기 위함
 
     def run(self):
-        # g = Github(login_or_token=<token>)  여기!!!!
-        g = Github()
+        g = Github(login_or_token="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")
         self.user = g.get_user(self.github_id)
 
-        write_commit_info_in_json(self.get_repo_info())
+        write_commit_info_in_json(self.get_user_info(), "user_info.json")
+        write_commit_info_in_json(self.get_repo_info(), "commit_info.json")
 
         return 0
 
     def get_user_info(self):
-        headers = {'Authorization': github_token}
-        user_data = requests.get(URL + self.github_id, headers=headers).json()
-        pprint(user_data)
+
+        user_infos = OrderedDict()
+
+        user_infos["login"] = self.user.login
+        user_infos["name"] = self.user.name
+        user_infos["email"] = self.user.email
+        user_infos["avatar_url"] = self.user.avatar_url
+        user_infos["bio"] = self.user.bio
+        user_infos["ghchart_url"] = f"https://ghchart.rshah.org/{self.github_id}"
+
+        return user_infos
 
     def get_repo_info(self):
         """
