@@ -3,8 +3,8 @@ from collections import OrderedDict
 import github
 from github import Github
 import json
+import urllib.request
 import pprint
-import requests
 import sys
 
 URL = "https://api.github.com/users/"
@@ -37,13 +37,14 @@ class GitHubAPIShell:
     def __init__(self, argv):
         self.github_id = argv  # argv : GitHug ID
         self.user = None  # GitHub user 객체 담기 위함
+        self.languages_url = list()
 
     def run(self):
-        g = Github(login_or_token="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")
+        g = Github(login_or_token="<token 입력>")
         self.user = g.get_user(self.github_id)
 
-        write_commit_info_in_json(self.get_user_info(), "user_info.json")
         write_commit_info_in_json(self.get_repo_info(), "commit_info.json")
+        write_commit_info_in_json(self.get_user_info(), "user_info.json")
 
         return 0
 
@@ -57,6 +58,7 @@ class GitHubAPIShell:
         user_infos["avatar_url"] = self.user.avatar_url
         user_infos["bio"] = self.user.bio
         user_infos["ghchart_url"] = f"https://ghchart.rshah.org/{self.github_id}"
+        user_infos["languages"] = self.get_language_stat()
 
         return user_infos
 
@@ -74,11 +76,13 @@ class GitHubAPIShell:
 
         for repo in repos:
             updated = repo.updated_at  # repo update 시간
+            self.languages_url.append(repo.languages_url)
             repo_infos[repo.full_name] = {
                 "repoName": repo.name,
                 "userName": self.user.name,
                 "updatedAt": "{0}-{1}-{2} {3}".format(updated.year, updated.month, updated.day,
                                                       updated.time()),
+                "language_url": repo.languages_url,
                 "commitInfo": self.get_commits(repo)
             }
 
@@ -115,6 +119,26 @@ class GitHubAPIShell:
             print(repo.full_name, e)
 
         return return_data
+
+    def get_language_stat(self):
+
+        langs = dict()
+        lang_sum = 0
+        for url in self.languages_url:
+            repo_langs = json.loads(urllib.request.urlopen(url).read())
+            for lang in repo_langs.keys():
+                if lang in langs:
+                    langs[lang] += int(repo_langs[lang])
+                else:
+                    langs[lang] = int(repo_langs[lang])
+                lang_sum += int(repo_langs[lang])
+
+        for lang in langs.keys():
+            langs[lang] = round((langs[lang] / lang_sum) * 100, 3)
+
+        sorted_dict = sorted(langs.items(), key=lambda item: item[1], reverse=True)
+
+        return sorted_dict
 
 
 @click.command()
