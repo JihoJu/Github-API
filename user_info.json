@@ -1,0 +1,46 @@
+{
+     "login": "jiahho",
+     "name": "주지호",
+     "email": null,
+     "avatar_url": "https://avatars.githubusercontent.com/u/75026409?v=4",
+     "bio": "jihoju96@gmail.com",
+     "ghchart_url": "https://ghchart.rshah.org/jiahho",
+     "languages": [
+          [
+               "Python",
+               87.975
+          ],
+          [
+               "CSS",
+               6.404
+          ],
+          [
+               "HTML",
+               4.813
+          ],
+          [
+               "JavaScript",
+               0.445
+          ],
+          [
+               "C++",
+               0.168
+          ],
+          [
+               "C",
+               0.075
+          ],
+          [
+               "PowerShell",
+               0.067
+          ],
+          [
+               "SCSS",
+               0.03
+          ],
+          [
+               "Shell",
+               0.022
+          ]
+     ]
+}

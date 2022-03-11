@@ -1,0 +1,3656 @@
+{
+     "jiahho/05_CodingPotato": {
+          "repoName": "05_CodingPotato",
+          "userName": "주지호",
+          "updatedAt": "2022-2-4 23:52:54",
+          "language_url": "https://api.github.com/repos/jiahho/05_CodingPotato/languages",
+          "commitInfo": [
+               {
+                    "message": "Merge branch 'master' of https://github.com/gdsckoreahackathon2022/05_CodingPotato",
+                    "committer": "seyoung8239",
+                    "author": "seyoung8239",
+                    "date": "2022-2-5 02:28:37"
+               },
+               {
+                    "message": "add ppt",
+                    "committer": "seyoung8239",
+                    "author": "seyoung8239",
+                    "date": "2022-2-5 02:28:16"
+               },
+               {
+                    "message": "Update README.md",
+                    "committer": "GitHub",
+                    "author": "장윤성",
+                    "date": "2022-2-5 01:47:28"
+               },
+               {
+                    "message": "Update README.md",
+                    "committer": "GitHub",
+                    "author": "장윤성",
+                    "date": "2022-2-5 01:43:19"
+               },
+               {
+                    "message": "Update README.md",
+                    "committer": "GitHub",
+                    "author": "장윤성",
+                    "date": "2022-2-5 01:39:26"
+               },
+               {
+                    "message": "Rename frontend/src/RouteAPI/index.js to frontend/src/routeAPI/index.js",
+                    "committer": "GitHub",
+                    "author": "Seyoung Park",
+                    "date": "2022-2-5 00:17:45"
+               },
+               {
+                    "message": "Merge pull request #1 from gdsckoreahackathon2022/seyoung Seyoung",
+                    "committer": "GitHub",
+                    "author": "Seyoung Park",
+                    "date": "2022-2-5 00:07:52"
+               },
+               {
+                    "message": "Merge branch 'master' into seyoung",
+                    "committer": "seyoung8239",
+                    "author": "seyoung8239",
+                    "date": "2022-2-5 00:07:26"
+               },
+               {
+                    "message": "merge",
+                    "committer": "seyoung8239",
+                    "author": "seyoung8239",
+                    "date": "2022-2-5 00:04:32"
+               },
+               {
+                    "message": "Update README.md",
+                    "committer": "GitHub",
+                    "author": "장윤성",
+                    "date": "2022-2-4 23:50:59"
+               },
+               {
+                    "message": "revise shelter map options",
+                    "committer": "seyoung8239",
+                    "author": "seyoung8239",
+                    "date": "2022-2-4 23:50:56"
+               },
+               {
+                    "message": "Update README.md",
+                    "committer": "GitHub",
+                    "author": "장윤성",
+                    "date": "2022-2-4 23:49:44"
+               },
+               {
+                    "message": "Merge pull request #23 from seyoung8239/Yunsung feat: data update",
+                    "committer": "GitHub",
+                    "author": "장윤성",
+                    "date": "2022-2-4 23:43:00"
+               },
+               {
+                    "message": "feat: data update",
+                    "committer": "장윤성",
+                    "author": "장윤성",
+                    "date": "2022-2-4 23:42:40"
+               },
+               {
+                    "message": "Delete README.md",
+                    "committer": "GitHub",
+                    "author": "Seyoung Park",
+                    "date": "2022-2-4 23:41:10"
+               },
+               {
+                    "message": "Update README.md",
+                    "committer": "GitHub",
+                    "author": "장윤성",
+                    "date": "2022-2-4 23:37:11"
+               },
+               {
+                    "message": "Update README.md",
+                    "committer": "GitHub",
+                    "author": "장윤성",
+                    "date": "2022-2-4 23:35:01"
+               },
+               {
+                    "message": "Create README.md",
+                    "committer": "GitHub",
+                    "author": "Seyoung Park",
+                    "date": "2022-2-4 23:30:11"
+               },
+               {
+                    "message": "Update README.md",
+                    "committer": "GitHub",
+                    "author": "Seyoung Park",
+                    "date": "2022-2-4 23:28:57"
+               },
+               {
+                    "message": "Merge pull request #22 from seyoung8239/Yunsung feat: shelter update",
+                    "committer": "GitHub",
+                    "author": "장윤성",
+                    "date": "2022-2-4 22:54:00"
+               },
+               {
+                    "message": "feat: shelter update",
+                    "committer": "장윤성",
+                    "author": "장윤성",
+                    "date": "2022-2-4 22:53:34"
+               },
+               {
+                    "message": "Update README.md",
+                    "committer": "GitHub",
+                    "author": "Seyoung Park",
+                    "date": "2022-2-4 22:49:05"
+               },
+               {
+                    "message": "revise styles",
+                    "committer": "seyoung8239",
+                    "author": "seyoung8239",
+                    "date": "2022-2-4 22:09:22"
+               },
+               {
+                    "message": "add new board page",
+                    "committer": "seyoung8239",
+                    "author": "seyoung8239",
+                    "date": "2022-2-4 22:08:54"
+               },
+               {
+                    "message": "Merge pull request #21 from seyoung8239/jiho feat: add test json file (weather, warning_data)",
+                    "committer": "GitHub",
+                    "author": "주지호",
+                    "date": "2022-2-4 20:20:35"
+               },
+               {
+                    "message": "Merge pull request #20 from seyoung8239/Yunsung feat: fine_user",
+                    "committer": "GitHub",
+                    "author": "장윤성",
+                    "date": "2022-2-4 20:19:31"
+               },
+               {
+                    "message": "feat: fine_user",
+                    "committer": "장윤성",
+                    "author": "장윤성",
+                    "date": "2022-2-4 20:19:15"
+               },
+               {
+                    "message": "feat: add test json file (weather, warning_data)",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-2-4 19:21:34"
+               },
+               {
+                    "message": "Merge pull request #19 from seyoung8239/jiho Jiho",
+                    "committer": "GitHub",
+                    "author": "주지호",
+                    "date": "2022-2-4 19:18:48"
+               },
+               {
+                    "message": "feat: add get heatwave warning data func",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-2-4 19:14:22"
+               },
+               {
+                    "message": "fix invalid longitude number",
+                    "committer": "seyoung8239",
+                    "author": "seyoung8239",
+                    "date": "2022-2-4 19:08:15"
+               },
+               {
+                    "message": "add temp table",
+                    "committer": "seyoung8239",
+                    "author": "seyoung8239",
+                    "date": "2022-2-4 19:06:39"
+               },
+               {
+                    "message": "chores: converting the temperature info api form to an array",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-2-4 16:38:12"
+               },
+               {
+                    "message": "Merge pull request #18 from seyoung8239/Yunsung feat: shelter real complete",
+                    "committer": "GitHub",
+                    "author": "장윤성",
+                    "date": "2022-2-4 16:24:52"
+               },
+               {
+                    "message": "feat: shelter real complete",
+                    "committer": "장윤성",
+                    "author": "장윤성",
+                    "date": "2022-2-4 16:24:37"
+               },
+               {
+                    "message": "add table chart",
+                    "committer": "seyoung8239",
+                    "author": "seyoung8239",
+                    "date": "2022-2-4 15:57:19"
+               },
+               {
+                    "message": "add api route file",
+                    "committer": "seyoung8239",
+                    "author": "seyoung8239",
+                    "date": "2022-2-4 15:56:18"
+               },
+               {
+                    "message": "Merge pull request #17 from seyoung8239/jiho Jiho",
+                    "committer": "GitHub",
+                    "author": "주지호",
+                    "date": "2022-2-4 15:55:54"
+               },
+               {
+                    "message": "feat: add get_each_region_temperature_info api",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-2-4 15:42:01"
+               },
+               {
+                    "message": "chores: convert from return api value object to array (heatwave data)",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-2-4 15:29:56"
+               },
+               {
+                    "message": "Merge pull request #16 from seyoung8239/Yunsung Yunsung",
+                    "committer": "GitHub",
+                    "author": "장윤성",
+                    "date": "2022-2-4 14:40:01"
+               },
+               {
+                    "message": "feat:make_user",
+                    "committer": "장윤성",
+                    "author": "장윤성",
+                    "date": "2022-2-4 14:39:41"
+               },
+               {
+                    "message": "Update shelter.py",
+                    "committer": "장윤성",
+                    "author": "장윤성",
+                    "date": "2022-2-4 14:38:39"
+               },
+               {
+                    "message": "feat: shelter position",
+                    "committer": "장윤성",
+                    "author": "장윤성",
+                    "date": "2022-2-4 13:39:03"
+               },
+               {
+                    "message": "revise some stuffs",
+                    "committer": "seyoung8239",
+                    "author": "seyoung8239",
+                    "date": "2022-2-4 08:32:35"
+               },
+               {
+                    "message": "fix map display on deployed web",
+                    "committer": "seyoung8239",
+                    "author": "seyoung8239",
+                    "date": "2022-2-4 08:31:28"
+               },
+               {
+                    "message": "add temp table structure",
+                    "committer": "seyoung8239",
+                    "author": "seyoung8239",
+                    "date": "2022-2-4 08:29:59"
+               },
+               {
+                    "message": "add HSTable page structure",
+                    "committer": "seyoung8239",
+                    "author": "seyoung8239",
+                    "date": "2022-2-4 08:29:18"
+               },
+               {
+                    "message": "Merge pull request #15 from seyoung8239/Yunsung feat: socket complete",
+                    "committer": "GitHub",
+                    "author": "장윤성",
+                    "date": "2022-2-3 11:00:47"
+               },
+               {
+                    "message": "feat: socket complete",
+                    "committer": "JangYunSeong",
+                    "author": "JangYunSeong",
+                    "date": "2022-2-3 11:00:32"
+               },
+               {
+                    "message": "backend : socket complete feat : data appending",
+                    "committer": "GitHub",
+                    "author": "장윤성",
+                    "date": "2022-2-3 08:05:28"
+               },
+               {
+                    "message": "feat : data appending",
+                    "committer": "JangYunSeong",
+                    "author": "JangYunSeong",
+                    "date": "2022-2-3 08:04:29"
+               },
+               {
+                    "message": "Merge pull request #13 from seyoung8239/Yunsung backend : socket setting",
+                    "committer": "GitHub",
+                    "author": "장윤성",
+                    "date": "2022-2-2 11:45:40"
+               },
+               {
+                    "message": "Merge branch 'master' into Yunsung",
+                    "committer": "GitHub",
+                    "author": "장윤성",
+                    "date": "2022-2-2 11:45:33"
+               },
+               {
+                    "message": "backend : socket setting",
+                    "committer": "JangYunSeong",
+                    "author": "JangYunSeong",
+                    "date": "2022-2-2 11:43:37"
+               },
+               {
+                    "message": "Merge pull request #12 from seyoung8239/Yunsung backend : react connect",
+                    "committer": "GitHub",
+                    "author": "장윤성",
+                    "date": "2022-2-2 11:33:33"
+               },
+               {
+                    "message": "backend : react connect",
+                    "committer": "JangYunSeong",
+                    "author": "JangYunSeong",
+                    "date": "2022-2-2 05:08:07"
+               },
+               {
+                    "message": "Merge pull request #11 from seyoung8239/seyoung Seyoung",
+                    "committer": "GitHub",
+                    "author": "Seyoung Park",
+                    "date": "2022-2-2 00:23:23"
+               },
+               {
+                    "message": "Merge branch 'master' into seyoung",
+                    "committer": "seyoung8239",
+                    "author": "seyoung8239",
+                    "date": "2022-2-2 00:21:58"
+               },
+               {
+                    "message": "add post cards on board page",
+                    "committer": "seyoung8239",
+                    "author": "seyoung8239",
+                    "date": "2022-2-2 00:19:31"
+               },
+               {
+                    "message": "add deck.gl map",
+                    "committer": "seyoung8239",
+                    "author": "seyoung8239",
+                    "date": "2022-2-1 22:59:57"
+               },
+               {
+                    "message": "add deck.gl/test packages",
+                    "committer": "seyoung8239",
+                    "author": "seyoung8239",
+                    "date": "2022-2-1 22:59:36"
+               },
+               {
+                    "message": "Merge pull request #10 from seyoung8239/jiho 폭염시 각 분야 대응 행동 데이터 api 추가 및 json 파일 오류 해결",
+                    "committer": "GitHub",
+                    "author": "주지호",
+                    "date": "2022-2-1 09:39:50"
+               },
+               {
+                    "message": "fix: korean broken in heat wave casualities json file",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-2-1 09:33:22"
+               },
+               {
+                    "message": "feat: add inquiry_response_heatwave by field",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-2-1 09:08:40"
+               },
+               {
+                    "message": "feat: add heatwave_casualities",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-1-30 08:28:17"
+               },
+               {
+                    "message": "set firebase hosting",
+                    "committer": "seyoung8239",
+                    "author": "seyoung8239",
+                    "date": "2022-1-31 18:00:58"
+               },
+               {
+                    "message": "Merge pull request #9 from seyoung8239/seyoung Seyoung",
+                    "committer": "GitHub",
+                    "author": "Seyoung Park",
+                    "date": "2022-1-31 15:48:39"
+               },
+               {
+                    "message": "update react-router changes",
+                    "committer": "seyoung8239",
+                    "author": "seyoung8239",
+                    "date": "2022-1-31 15:46:49"
+               },
+               {
+                    "message": "fix html margin",
+                    "committer": "seyoung8239",
+                    "author": "seyoung8239",
+                    "date": "2022-1-31 15:33:42"
+               },
+               {
+                    "message": "add page router",
+                    "committer": "seyoung8239",
+                    "author": "seyoung8239",
+                    "date": "2022-1-31 15:33:27"
+               },
+               {
+                    "message": "add page structure",
+                    "committer": "seyoung8239",
+                    "author": "seyoung8239",
+                    "date": "2022-1-31 15:33:15"
+               },
+               {
+                    "message": "backend : cors",
+                    "committer": "JangYunSeong",
+                    "author": "JangYunSeong",
+                    "date": "2022-1-31 14:53:40"
+               },
+               {
+                    "message": "add packages",
+                    "committer": "seyoung8239",
+                    "author": "seyoung8239",
+                    "date": "2022-1-31 13:54:28"
+               },
+               {
+                    "message": "Merge pull request #6 from seyoung8239/jiho feat: add heatwave_casualities",
+                    "committer": "GitHub",
+                    "author": "주지호",
+                    "date": "2022-1-31 13:53:30"
+               },
+               {
+                    "message": "feat: add heatwave_casualities",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-1-30 08:28:17"
+               },
+               {
+                    "message": "new project",
+                    "committer": "seyoung8239",
+                    "author": "seyoung8239",
+                    "date": "2022-1-31 13:50:23"
+               },
+               {
+                    "message": "Merge pull request #5 from seyoung8239/seyoung Seyoung",
+                    "committer": "GitHub",
+                    "author": "Seyoung Park",
+                    "date": "2022-1-31 13:40:33"
+               },
+               {
+                    "message": "pull BE",
+                    "committer": "seyoung8239",
+                    "author": "seyoung8239",
+                    "date": "2022-1-31 13:30:08"
+               },
+               {
+                    "message": "Merge pull request #4 from seyoung8239/Yunsung Yunsung",
+                    "committer": "GitHub",
+                    "author": "장윤성",
+                    "date": "2022-1-30 10:33:10"
+               },
+               {
+                    "message": "Merge branch 'Yunsung' of https://github.com/seyoung8239/COPO into Yunsung",
+                    "committer": "JangYunSeong",
+                    "author": "JangYunSeong",
+                    "date": "2022-1-30 10:30:42"
+               },
+               {
+                    "message": "backend: find shortest 3 shelters",
+                    "committer": "JangYunSeong",
+                    "author": "JangYunSeong",
+                    "date": "2022-1-30 10:30:38"
+               },
+               {
+                    "message": "Merge pull request #3 from seyoung8239/Yunsung Yunsung",
+                    "committer": "GitHub",
+                    "author": "장윤성",
+                    "date": "2022-1-30 08:29:33"
+               },
+               {
+                    "message": "Merge branch 'master' into Yunsung",
+                    "committer": "GitHub",
+                    "author": "장윤성",
+                    "date": "2022-1-30 08:29:27"
+               },
+               {
+                    "message": "backend : shelter update",
+                    "committer": "JangYunSeong",
+                    "author": "JangYunSeong",
+                    "date": "2022-1-30 08:20:19"
+               },
+               {
+                    "message": "backend:shortest shelter",
+                    "committer": "JangYunSeong",
+                    "author": "JangYunSeong",
+                    "date": "2022-1-29 14:14:59"
+               },
+               {
+                    "message": "backend: make AddressCode",
+                    "committer": "JangYunSeong",
+                    "author": "JangYunSeong",
+                    "date": "2022-1-29 10:14:07"
+               },
+               {
+                    "message": "backend : shelter",
+                    "committer": "JangYunSeong",
+                    "author": "JangYunSeong",
+                    "date": "2022-1-29 07:48:01"
+               },
+               {
+                    "message": "backend : 2021.01.28 initialized",
+                    "committer": "JangYunSeong",
+                    "author": "JangYunSeong",
+                    "date": "2022-1-29 05:11:26"
+               },
+               {
+                    "message": "Merge pull request #1 from seyoung8239/jiho backend django 프로젝트 세팅",
+                    "committer": "GitHub",
+                    "author": "주지호",
+                    "date": "2022-1-28 14:17:40"
+               },
+               {
+                    "message": "Add django venv",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-1-28 14:13:50"
+               },
+               {
+                    "message": "feat: Create backend django project",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-1-28 14:12:46"
+               },
+               {
+                    "message": "Initial commit for backend",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-1-28 14:12:14"
+               },
+               {
+                    "message": "construct file structure",
+                    "committer": "seyoung8239",
+                    "author": "seyoung8239",
+                    "date": "2022-1-28 14:08:15"
+               },
+               {
+                    "message": "make fe project",
+                    "committer": "seyoung8239",
+                    "author": "seyoung8239",
+                    "date": "2022-1-28 13:49:09"
+               }
+          ]
+     },
+     "jiahho/airbnb-clone": {
+          "repoName": "airbnb-clone",
+          "userName": "주지호",
+          "updatedAt": "2021-7-12 18:15:55",
+          "language_url": "https://api.github.com/repos/jiahho/airbnb-clone/languages",
+          "commitInfo": [
+               {
+                    "message": "Add create_reviews",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-7-12 18:15:36"
+               },
+               {
+                    "message": "Add BookedDay Model & is_booked tags",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-7-6 15:07:05"
+               },
+               {
+                    "message": "Add Room Calendar",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-7-5 16:13:06"
+               },
+               {
+                    "message": "Add is_host to the Session & Add CreateRoomView",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-7-4 11:22:44"
+               },
+               {
+                    "message": "Add EditRoomView, RoomPhotosView, delete_photo, EditPhotoView, AddPhotoView",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-7-3 09:55:48"
+               },
+               {
+                    "message": "Styling Room DetailView",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-7-2 16:27:29"
+               },
+               {
+                    "message": "Add UpdatePasswordView, LoggedOutOnlyView, LoggedInOnlyView, EmailLoginOnlyVeiw",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-7-1 14:25:26"
+               },
+               {
+                    "message": "Add UserProfileView & UserProfileUpdateView",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-6-30 07:11:39"
+               },
+               {
+                    "message": "Add notification message at Login, Logout, SignUp View",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-6-29 11:26:36"
+               },
+               {
+                    "message": "Make Login, SignUp, Home, Header, Footer, Room_List Beautiful with TailWind",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-6-28 15:09:46"
+               },
+               {
+                    "message": "Setting Up TAILWIND with Gulp",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-6-27 02:54:24"
+               },
+               {
+                    "message": "Add SignUpView & Email Verification & Kakao Login",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-6-27 01:48:09"
+               },
+               {
+                    "message": "Add Log In & Log out View",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-6-24 23:00:35"
+               },
+               {
+                    "message": "Update SearchView from HTML to Django Form",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-6-5 17:41:14"
+               },
+               {
+                    "message": "Add Search View,",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-6-2 15:30:22"
+               },
+               {
+                    "message": "Add Rooms ListView, DetailView, and pagination",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-5-20 03:42:51"
+               },
+               {
+                    "message": "Create Custom Command and Add datas using seed",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-5-18 23:39:26"
+               },
+               {
+                    "message": "Add RoomAdmin Options",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-5-12 15:59:03"
+               },
+               {
+                    "message": "Add Conversation, List, Reservation, Review Models and AdminModels",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-5-11 23:17:37"
+               },
+               {
+                    "message": "Add Room, Room Type, Amenity, Facility, House Rule, Photo Model and Register ItemAdmin, PhotoAdmin on admin",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-5-11 02:05:04"
+               },
+               {
+                    "message": "create Applications and Update User Application",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-5-10 23:59:21"
+               },
+               {
+                    "message": "Add .gitignore and README.md",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-5-10 00:55:11"
+               },
+               {
+                    "message": "Setting our Env and Installing Django",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-5-10 00:50:46"
+               }
+          ]
+     },
+     "jiahho/algorithms-and-data-structures": {
+          "repoName": "algorithms-and-data-structures",
+          "userName": "주지호",
+          "updatedAt": "2022-1-25 14:11:40",
+          "language_url": "https://api.github.com/repos/jiahho/algorithms-and-data-structures/languages",
+          "commitInfo": [
+               {
+                    "message": "solution: 1874, 2775 (baekjoon)",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-3-11 08:31:11"
+               },
+               {
+                    "message": "solution: 1436, 2231, 2292 (baekjoon)",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-3-10 12:35:13"
+               },
+               {
+                    "message": "solution: 1018, 1085, 1181, 1259 (baekjoon)",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-3-8 05:39:25"
+               },
+               {
+                    "message": "solution: 14681 (baekjoon)",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-3-5 12:48:52"
+               },
+               {
+                    "message": "solution: Class1(baekjoon) 23문제(C++)",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-3-4 07:04:15"
+               },
+               {
+                    "message": "solution: 1000, 1001, 1152, 1157, 1330, 1546, 2438, 2439, 2475, 2563, 2577 (baekjoon)",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-3-3 14:50:49"
+               },
+               {
+                    "message": "algorithm: kruskal (union-find 기법)",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-3-1 05:24:02"
+               },
+               {
+                    "message": "algorithm: dijkstra (최단 거리 구하기)",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-2-26 06:31:37"
+               },
+               {
+                    "message": "solution: baekjoon algorithms (11399)",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-2-17 06:52:27"
+               },
+               {
+                    "message": "algorithm: greedy theory & related problems",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-2-16 03:34:29"
+               },
+               {
+                    "message": "algorithm: bfs & dfs",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-2-15 14:57:51"
+               },
+               {
+                    "message": "solution: baekjoon algorithms (1920)",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-2-11 06:21:51"
+               },
+               {
+                    "message": "algorithm: tree & search (sequential, binary)",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-2-11 05:13:12"
+               },
+               {
+                    "message": "algorithm: quick sorting & merge sorting",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-2-10 13:35:46"
+               },
+               {
+                    "message": "feat: add .gitignore",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-2-10 08:38:31"
+               },
+               {
+                    "message": "solution: baekjoon algorithms",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-1-27 15:35:06"
+               },
+               {
+                    "message": "algorithm: basic sorting - bubble sorting - selection sorting - insertion sorting",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-1-25 14:10:49"
+               },
+               {
+                    "message": "Initial commit",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-1-25 03:42:14"
+               }
+          ]
+     },
+     "jiahho/contribution-academy-2021": {
+          "repoName": "contribution-academy-2021",
+          "userName": "주지호",
+          "updatedAt": "2022-2-27 01:18:03",
+          "language_url": "https://api.github.com/repos/jiahho/contribution-academy-2021/languages",
+          "commitInfo": [
+               {
+                    "message": "Merge pull request #60 from Limyoonsu/main Add: story2009289 issue Analysis and command 'hypervisor servers'",
+                    "committer": "GitHub",
+                    "author": "Seongsoo Cho",
+                    "date": "2021-10-31 08:39:52"
+               },
+               {
+                    "message": "Add: story2009289 issue Analysis and command 'hypervisor servers'",
+                    "committer": "YoonSooLim",
+                    "author": "YoonSooLim",
+                    "date": "2021-10-30 16:09:07"
+               },
+               {
+                    "message": "Merge pull request #59 from lsmman/main Add accomplishment of command 'image-task-show'",
+                    "committer": "GitHub",
+                    "author": "Seongsoo Cho",
+                    "date": "2021-10-30 06:14:27"
+               },
+               {
+                    "message": "Merge branch 'main' into main",
+                    "committer": "GitHub",
+                    "author": "Seongsoo Cho",
+                    "date": "2021-10-30 06:12:54"
+               },
+               {
+                    "message": "Merge pull request #58 from jiahho/jiho-branch Add 'Fix bug that readonly option doesn’t setup with volume create' &…",
+                    "committer": "GitHub",
+                    "author": "Seongsoo Cho",
+                    "date": "2021-10-30 06:11:09"
+               },
+               {
+                    "message": "Merge branch 'main' into jiho-branch",
+                    "committer": "GitHub",
+                    "author": "Seongsoo Cho",
+                    "date": "2021-10-30 06:11:01"
+               },
+               {
+                    "message": "Merge pull request #57 from jaeyoung0826/add_command_create_task Add doc on how to add command 'image_create_task' & Add iamge for doc",
+                    "committer": "GitHub",
+                    "author": "Seongsoo Cho",
+                    "date": "2021-10-30 06:10:36"
+               },
+               {
+                    "message": "Merge pull request #56 from RyanKor/main 개별 성과물 커밋 및 커맨드 작업물 커밋",
+                    "committer": "GitHub",
+                    "author": "Seongsoo Cho",
+                    "date": "2021-10-30 06:10:27"
+               },
+               {
+                    "message": "Merge pull request #55 from jaeyoung0826/story1760528 Add story1760528 issue Analysis and Resolution doc & images for doc",
+                    "committer": "GitHub",
+                    "author": "Seongsoo Cho",
+                    "date": "2021-10-30 06:10:16"
+               },
+               {
+                    "message": "add accomplishment of command 'image-task-show'",
+                    "committer": "lsmman",
+                    "author": "lsmman",
+                    "date": "2021-10-29 18:29:34"
+               },
+               {
+                    "message": "Add 'Fix bug that readonly option doesn’t setup with volume create' & 'Add more filter option of columns for server list -c COLUMN' docs",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2021-10-29 13:50:10"
+               },
+               {
+                    "message": "Add doc on how to add command 'image_create_task' & Add iamge for doc",
+                    "committer": "이재용",
+                    "author": "이재용",
+                    "date": "2021-10-29 12:02:45"
+               },
+               {
+                    "message": "개별 커밋 및 커맨드 작업물 커밋",
+                    "committer": "ryanKor",
+                    "author": "ryanKor",
+                    "date": "2021-10-28 15:57:09"
+               },
+               {
+                    "message": "Add story1760528 issue Analysis and Resolution doc & images for doc",
+                    "committer": "이재용",
+                    "author": "이재용",
+                    "date": "2021-10-28 14:19:43"
+               },
+               {
+                    "message": "Merge pull request #54 from Limyoonsu/nova_analysis Update: 'nova api analysis' doc path change",
+                    "committer": "GitHub",
+                    "author": "Doa Choi",
+                    "date": "2021-10-22 09:57:54"
+               },
+               {
+                    "message": "Update: 'nova api analysis' doc path change",
+                    "committer": "YoonSooLim",
+                    "author": "YoonSooLim",
+                    "date": "2021-10-22 04:22:16"
+               },
+               {
+                    "message": "Merge pull request #53 from pearl0725/fix-mnist PyCharm 으로 openstackcli 실행 환경 만들기",
+                    "committer": "GitHub",
+                    "author": "Doa Choi",
+                    "date": "2021-10-21 17:01:13"
+               },
+               {
+                    "message": "PyCharm 으로 openstackcli 실행 환경 만들기",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-21 16:58:18"
+               },
+               {
+                    "message": "Merge pull request #52 from pearl0725/fix-mnist 승태님 코드 목차 수정",
+                    "committer": "GitHub",
+                    "author": "Doa Choi",
+                    "date": "2021-10-21 16:35:39"
+               },
+               {
+                    "message": "승태님 코드 목차 수정",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-21 16:31:53"
+               },
+               {
+                    "message": "Merge pull request #51 from pearl0725/fix-mnist 승태님 코드 목차 수정",
+                    "committer": "GitHub",
+                    "author": "Doa Choi",
+                    "date": "2021-10-21 16:13:32"
+               },
+               {
+                    "message": "승태님 코드 목차 수정",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-21 16:08:35"
+               },
+               {
+                    "message": "Merge pull request #49 from pearl0725/fix-mnist 가이드 문서 오탈자 수정",
+                    "committer": "GitHub",
+                    "author": "Doa Choi",
+                    "date": "2021-10-21 15:57:41"
+               },
+               {
+                    "message": "승태님 코드 목차 변경",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-21 15:55:26"
+               },
+               {
+                    "message": "Merge branch 'openstack-kr:main' into fix-mnist",
+                    "committer": "GitHub",
+                    "author": "Doa Choi",
+                    "date": "2021-10-21 15:35:12"
+               },
+               {
+                    "message": "Merge pull request #50 from RyanKor/main 승태 코드 conflict 해결",
+                    "committer": "GitHub",
+                    "author": "Doa Choi",
+                    "date": "2021-10-21 15:10:01"
+               },
+               {
+                    "message": "승태 코드 conflict 해결",
+                    "committer": "ryanKor",
+                    "author": "ryanKor",
+                    "date": "2021-10-21 14:38:08"
+               },
+               {
+                    "message": "Pycharm 으로 openstackcli 실행 환경 만들기 문서 오타 수정",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-21 13:55:10"
+               },
+               {
+                    "message": "Merge pull request #48 from pearl0725/fix-mnist 팀 블로그 구조화 및 개발환경 만들기 문서 작성",
+                    "committer": "GitHub",
+                    "author": "Doa Choi",
+                    "date": "2021-10-21 11:27:44"
+               },
+               {
+                    "message": "Merge branch 'fix-mnist' of https://github.com/pearl0725/contribution-academy-2021 into fix-mnist",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-21 11:24:51"
+               },
+               {
+                    "message": "Update file for change directory structure",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-21 11:21:10"
+               },
+               {
+                    "message": "Update file for change directory structure",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-21 11:18:18"
+               },
+               {
+                    "message": "PyCharm 으로 openstackcli 실행 환경 만들기",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-18 16:26:24"
+               },
+               {
+                    "message": "클라우드 가상 머신에서 devstack 설치하기",
+                    "committer": "choidoa-git",
+                    "author": "Doa Choi",
+                    "date": "2021-10-18 14:29:18"
+               },
+               {
+                    "message": "기본적인 CLI 사용하기",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-18 14:21:11"
+               },
+               {
+                    "message": "프로젝트 개발환경 만들기",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-18 14:20:50"
+               },
+               {
+                    "message": "프로젝트 개발환경 만들기",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-18 14:14:18"
+               },
+               {
+                    "message": "클라우드 VM에서 데브스택 설치하기",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-17 17:21:25"
+               },
+               {
+                    "message": "기본적인 CLI 사용하기",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-17 17:20:51"
+               },
+               {
+                    "message": "Delete files",
+                    "committer": "choidoa-git",
+                    "author": "Doa Choi",
+                    "date": "2021-10-16 18:22:13"
+               },
+               {
+                    "message": "데브스택에서 CLI 이용하기 openrc 스크립트 내용 분석",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-17 15:47:30"
+               },
+               {
+                    "message": "클라우드 가상머신에서 데브스택 설치",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-17 15:47:04"
+               },
+               {
+                    "message": "Update file for change directory structure",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-16 18:08:47"
+               },
+               {
+                    "message": "Change 'Assignmnet' to 'assignment'",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-16 17:59:11"
+               },
+               {
+                    "message": "Delete files for change directory structure",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-16 17:35:08"
+               },
+               {
+                    "message": "Update files",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-16 17:34:25"
+               },
+               {
+                    "message": "Update files for change directory structure",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-16 17:33:21"
+               },
+               {
+                    "message": "Update toctree",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-16 15:57:23"
+               },
+               {
+                    "message": "Add 'devstack_guide_cli' and 'devstack_guide_install' for documentation",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-16 15:56:51"
+               },
+               {
+                    "message": "Change 'Assignmnet' to 'assignment'",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-16 15:53:11"
+               },
+               {
+                    "message": "Fix build error due to rename directory",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-16 02:48:49"
+               },
+               {
+                    "message": "Change 'Assignment' to 'assignment'",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-16 01:56:42"
+               },
+               {
+                    "message": "Change 'assignment' to 'Assignment' Change 'Assignment' to 'assignment' Fix build error due to rename directory Fix build error due to rename directory",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-16 01:56:42"
+               },
+               {
+                    "message": "Add 'test' for documentation of unit test code",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-16 01:36:46"
+               },
+               {
+                    "message": "Add 'openstackclient_project' for openstackclient project structure",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-16 01:36:08"
+               },
+               {
+                    "message": "개발환경 만들기 - 클라우드 VM에서 devstack 설치하기",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-16 01:30:03"
+               },
+               {
+                    "message": "PyCharm 으로 openstackcli 실행 환경 만들기",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-18 16:26:24"
+               },
+               {
+                    "message": "클라우드 가상 머신에서 devstack 설치하기",
+                    "committer": "GitHub",
+                    "author": "Doa Choi",
+                    "date": "2021-10-18 14:29:18"
+               },
+               {
+                    "message": "Merge branch 'fix-mnist' of https://github.com/pearl0725/contribution-academy-2021 into fix-mnist",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-18 14:27:12"
+               },
+               {
+                    "message": "기본적인 CLI 사용하기",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-18 14:21:11"
+               },
+               {
+                    "message": "프로젝트 개발환경 만들기",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-18 14:20:50"
+               },
+               {
+                    "message": "기본적인 CLI 사용하기",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-18 14:21:11"
+               },
+               {
+                    "message": "클라우드 VM에서 데브스택 설치하기",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-18 14:20:50"
+               },
+               {
+                    "message": "프로젝트 개발환경 만들기",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-18 14:14:18"
+               },
+               {
+                    "message": "클라우드 VM에서 데브스택 설치하기",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-17 17:21:25"
+               },
+               {
+                    "message": "기본적인 CLI 사용하기",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-17 17:20:51"
+               },
+               {
+                    "message": "Merge branch 'fix-mnist' of https://github.com/pearl0725/contribution-academy-2021 into fix-mnist",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-17 15:47:43"
+               },
+               {
+                    "message": "데브스택에서 CLI 이용하기 openrc 스크립트 내용 분석",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-17 15:47:30"
+               },
+               {
+                    "message": "클라우드 가상머신에서 데브스택 설치",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-17 15:47:04"
+               },
+               {
+                    "message": "Delete files",
+                    "committer": "Doa Choi",
+                    "author": "Doa Choi",
+                    "date": "2021-10-16 18:22:13"
+               },
+               {
+                    "message": "Update file for change directory structure",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-16 18:08:47"
+               },
+               {
+                    "message": "Change 'Assignmnet' to 'assignment'",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-16 17:59:11"
+               },
+               {
+                    "message": "Delete files for change directory structory",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-16 17:35:08"
+               },
+               {
+                    "message": "Update files",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-16 17:34:25"
+               },
+               {
+                    "message": "Update files for change directory structory",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-16 17:33:21"
+               },
+               {
+                    "message": "Update toctree",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-16 15:57:23"
+               },
+               {
+                    "message": "Add 'devstack_guide_cli' and 'devstack_guide_install' for documentation",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-16 15:56:51"
+               },
+               {
+                    "message": "Change 'Assignmnet' to 'assignment'",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-16 15:53:11"
+               },
+               {
+                    "message": "Merge branch 'fix-mnist' of https://github.com/pearl0725/contribution-academy-2021 into fix-mnist",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-16 02:54:50"
+               },
+               {
+                    "message": "Change 'assignment' to 'Assignment' Change 'Assignment' to 'assignment' Fix build error due to rename directory Fix build error due to rename directory",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-16 01:56:42"
+               },
+               {
+                    "message": "Merge branch 'fix-mnist' of https://github.com/pearl0725/contribution-academy-2021 into fix-mnist",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-16 02:50:53"
+               },
+               {
+                    "message": "Change 'Assignment' to 'assignment' Fix build error due to rename directory Fix build error due to rename directory",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-16 01:56:42"
+               },
+               {
+                    "message": "Fix build error due to rename directory",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-16 02:48:49"
+               },
+               {
+                    "message": "Fix build error due to rename directory",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-16 02:38:41"
+               },
+               {
+                    "message": "Change 'Assignment' to 'assignment'",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-16 01:56:42"
+               },
+               {
+                    "message": "Add 'test' for documentation of unit test code",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-16 01:36:46"
+               },
+               {
+                    "message": "Add 'openstackclient_project' for openstackclient project structure",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-16 01:36:08"
+               },
+               {
+                    "message": "개발환경 만들기 - 클라우드 VM에서 devstack 설치하기",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-16 01:30:03"
+               },
+               {
+                    "message": "Merge branch 'fix-mnist' of https://github.com/pearl0725/contribution-academy-2021 into fix-mnist",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-16 01:23:36"
+               },
+               {
+                    "message": "Update files for change directory structure",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-16 01:20:04"
+               },
+               {
+                    "message": "Delete files",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-16 01:20:04"
+               },
+               {
+                    "message": "Add 'contribute' for contributor activity guide",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-16 01:17:45"
+               },
+               {
+                    "message": "Change 'assignment' directory structure",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-16 01:07:48"
+               },
+               {
+                    "message": "Change 'development_setup_guide' directory structure for documentation of development environment",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-16 01:06:33"
+               },
+               {
+                    "message": "Add 'test' for documentation of unit test code'",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-16 01:05:21"
+               },
+               {
+                    "message": "Add 'openstackclient_project' for openstackclient project structure",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-16 01:04:42"
+               },
+               {
+                    "message": "Add 'member' for introduce member our team",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-16 01:03:52"
+               },
+               {
+                    "message": "Add 'accomplishment' for documentation of our team's achievements",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-16 01:03:11"
+               },
+               {
+                    "message": "Merge branch 'openstack-kr:main' into main",
+                    "committer": "GitHub",
+                    "author": "Doa Choi",
+                    "date": "2021-10-12 10:09:42"
+               },
+               {
+                    "message": "Change the docs structure and title of assignments",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-10-12 09:43:39"
+               },
+               {
+                    "message": "Merge pull request #31 from SangHoo-c/main Fix : merge error",
+                    "committer": "GitHub",
+                    "author": "Doa Choi",
+                    "date": "2021-10-9 01:19:20"
+               },
+               {
+                    "message": "Merge pull request #43 from Limyoonsu/novaclient-set [Add] novaclient setting guide",
+                    "committer": "GitHub",
+                    "author": "Seongsoo Cho",
+                    "date": "2021-9-30 13:29:02"
+               },
+               {
+                    "message": "[Add] novaclient setting guide",
+                    "committer": "YoonSoo Lim",
+                    "author": "YoonSoo Lim",
+                    "date": "2021-9-30 13:23:09"
+               },
+               {
+                    "message": "Merge branch 'main' into main",
+                    "committer": "GitHub",
+                    "author": "LEE SANG HOO",
+                    "date": "2021-9-30 12:34:03"
+               },
+               {
+                    "message": "Merge pull request #42 from Limyoonsu/nova-option Analyzed the --name option of 'server list'",
+                    "committer": "GitHub",
+                    "author": "Seongsoo Cho",
+                    "date": "2021-9-30 11:46:41"
+               },
+               {
+                    "message": "Merge pull request #41 from jaeyoung0826/contribution_activities Add doc: analysis of the story: 2006754 & fix dir index",
+                    "committer": "GitHub",
+                    "author": "Seongsoo Cho",
+                    "date": "2021-9-30 11:46:31"
+               },
+               {
+                    "message": "Merge pull request #40 from pearl0725/fix-mnist Fix: fix invalid url",
+                    "committer": "GitHub",
+                    "author": "Seongsoo Cho",
+                    "date": "2021-9-30 11:46:11"
+               },
+               {
+                    "message": "Merge pull request #39 from RyanKor/ryanKor 4주차 스프린트 & 5주차 과제 수행 작업 자료 정리 PR",
+                    "committer": "GitHub",
+                    "author": "Seongsoo Cho",
+                    "date": "2021-9-30 11:45:59"
+               },
+               {
+                    "message": "Merge pull request #26 from spring0913/bmsung [Fix] rst syntax error",
+                    "committer": "GitHub",
+                    "author": "Seongsoo Cho",
+                    "date": "2021-9-30 11:42:32"
+               },
+               {
+                    "message": "6번째 스프린트 & 팀 미팅 상황 정리, 버그 커밋 기록 정리",
+                    "committer": "ryanKor",
+                    "author": "ryanKor",
+                    "date": "2021-9-26 10:28:18"
+               },
+               {
+                    "message": "5번째 팀 스프린트 활동 내역 기록",
+                    "committer": "ryanKor",
+                    "author": "ryanKor",
+                    "date": "2021-9-19 15:09:00"
+               },
+               {
+                    "message": "Analyzed the --name option of 'server list'",
+                    "committer": "YoonSoo Lim",
+                    "author": "YoonSoo Lim",
+                    "date": "2021-9-18 08:33:54"
+               },
+               {
+                    "message": "Add doc: analysis of the story: 2006754 1. make dir for personal contribution activities 2. add doc and img for \"analysis of the story: 2006754\"",
+                    "committer": "이재용",
+                    "author": "JAYLEE",
+                    "date": "2021-9-15 15:13:03"
+               },
+               {
+                    "message": "Fix: fix invalid url",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-9-14 09:25:56"
+               },
+               {
+                    "message": "added : week5 assignment doc",
+                    "committer": "ryanKor",
+                    "author": "ryanKor",
+                    "date": "2021-9-12 12:08:03"
+               },
+               {
+                    "message": "added : week5 assignment doc",
+                    "committer": "ryanKor",
+                    "author": "ryanKor",
+                    "date": "2021-9-12 12:06:31"
+               },
+               {
+                    "message": "[Fix] rst syntax error",
+                    "committer": "spring0913",
+                    "author": "spring0913",
+                    "date": "2021-9-1 14:56:47"
+               },
+               {
+                    "message": "Merge branch 'openstack-kr:main' into main",
+                    "committer": "GitHub",
+                    "author": "Doa Choi",
+                    "date": "2021-9-7 17:20:58"
+               },
+               {
+                    "message": "Merge pull request #38 from pearl0725/fix-mnist Fix: fix error format of images",
+                    "committer": "GitHub",
+                    "author": "Doa Choi",
+                    "date": "2021-9-7 16:49:35"
+               },
+               {
+                    "message": "Fix: fix error format of images",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-9-7 16:28:21"
+               },
+               {
+                    "message": "Merge pull request #37 from pearl0725/fix-mnist Fix: fix error format of images",
+                    "committer": "GitHub",
+                    "author": "Doa Choi",
+                    "date": "2021-9-7 16:16:07"
+               },
+               {
+                    "message": "Fix: fix error format of images",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-9-7 15:43:10"
+               },
+               {
+                    "message": "Merge branch 'openstack-kr:main' into main",
+                    "committer": "GitHub",
+                    "author": "Doa Choi",
+                    "date": "2021-9-7 15:40:04"
+               },
+               {
+                    "message": "Merge pull request #34 from openstack9332/jiwonyun 2주차,3주차 과제 업데이트",
+                    "committer": "GitHub",
+                    "author": "Doa Choi",
+                    "date": "2021-9-7 15:38:23"
+               },
+               {
+                    "message": "Merge pull request #36 from pearl0725/fix-mnist Fix mnist",
+                    "committer": "GitHub",
+                    "author": "Doa Choi",
+                    "date": "2021-9-7 15:33:02"
+               },
+               {
+                    "message": "Fix: fix error format of images",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-9-7 15:27:01"
+               },
+               {
+                    "message": "Merge branch 'openstack-kr:main' into fix-mnist",
+                    "committer": "GitHub",
+                    "author": "Doa Choi",
+                    "date": "2021-9-7 14:54:20"
+               },
+               {
+                    "message": "Merge branch 'openstack-kr:main' into main",
+                    "committer": "GitHub",
+                    "author": "Doa Choi",
+                    "date": "2021-9-7 14:51:38"
+               },
+               {
+                    "message": "Merge pull request #28 from rura6502/main 2주차 과제 업데이트, 3주차 과제 업데이트",
+                    "committer": "GitHub",
+                    "author": "Doa Choi",
+                    "date": "2021-9-7 14:46:38"
+               },
+               {
+                    "message": "Merge pull request #30 from RyanKor/ryanKor Fixed : Tox Test Error",
+                    "committer": "GitHub",
+                    "author": "Doa Choi",
+                    "date": "2021-9-7 14:41:58"
+               },
+               {
+                    "message": "Merge pull request #29 from jiahho/jiho-branch [Update] task2-2(openstack server list 명령어 동작 원리 파악) & tox 수행 완료",
+                    "committer": "GitHub",
+                    "author": "Doa Choi",
+                    "date": "2021-9-7 14:39:18"
+               },
+               {
+                    "message": "Merge pull request #33 from lsmman/main week2-2 내용 보강 (keystone token 부분)",
+                    "committer": "GitHub",
+                    "author": "Doa Choi",
+                    "date": "2021-9-7 14:38:44"
+               },
+               {
+                    "message": "Gerrit Guide",
+                    "committer": "openstack9332",
+                    "author": "openstack9332",
+                    "date": "2021-9-7 04:48:01"
+               },
+               {
+                    "message": "Merge pull request #1 from pearl0725/fix-mnist Fix mnist",
+                    "committer": "GitHub",
+                    "author": "Doa Choi",
+                    "date": "2021-9-4 14:48:20"
+               },
+               {
+                    "message": "Merge branch 'main' into fix-mnist",
+                    "committer": "GitHub",
+                    "author": "Doa Choi",
+                    "date": "2021-9-4 14:47:38"
+               },
+               {
+                    "message": "Fixed merge conflicts",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-9-4 14:45:18"
+               },
+               {
+                    "message": "Fixed merge conflicts",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-9-4 14:43:36"
+               },
+               {
+                    "message": "Fixed merge conflicts",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-9-4 14:41:50"
+               },
+               {
+                    "message": "Merge pull request #27 from pearl0725/fix-mnist 3주차 과제 및 workflow 수정",
+                    "committer": "GitHub",
+                    "author": "Seongsoo Cho",
+                    "date": "2021-9-4 07:25:30"
+               },
+               {
+                    "message": "3주차 과제: openstack server list field 추가",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-9-3 12:40:41"
+               },
+               {
+                    "message": "jiwonyun week 3 assignment modify",
+                    "committer": "openstack9332",
+                    "author": "openstack9332",
+                    "date": "2021-9-3 12:31:17"
+               },
+               {
+                    "message": "Merge branch 'main' of https://github.com/openstack-kr/contribution-academy-2021",
+                    "committer": "lsmman",
+                    "author": "lsmman",
+                    "date": "2021-9-3 10:42:52"
+               },
+               {
+                    "message": "add content of week2-2_server-list.rst",
+                    "committer": "lsmman",
+                    "author": "lsmman",
+                    "date": "2021-9-3 10:39:44"
+               },
+               {
+                    "message": "[EDIT] merge error",
+                    "committer": "SangHoo-c",
+                    "author": "SangHoo-c",
+                    "date": "2021-9-3 02:32:27"
+               },
+               {
+                    "message": "Merge branch 'main' into ryanKor",
+                    "committer": "GitHub",
+                    "author": "SeungTaeKim",
+                    "date": "2021-9-2 12:52:55"
+               },
+               {
+                    "message": "fixed : tox test error",
+                    "committer": "ryanKor",
+                    "author": "ryanKor",
+                    "date": "2021-9-2 12:46:30"
+               },
+               {
+                    "message": "Merge branch 'main' into jiho-branch",
+                    "committer": "GitHub",
+                    "author": "jiho",
+                    "date": "2021-9-2 12:39:26"
+               },
+               {
+                    "message": "[Update] task2-2(openstack server list 명령어 동작 원리 파악) & tox 수행 완료",
+                    "committer": "jiho-git",
+                    "author": "jiho-git",
+                    "date": "2021-8-31 09:39:07"
+               },
+               {
+                    "message": "Testing : tox env",
+                    "committer": "ryanKor",
+                    "author": "ryanKor",
+                    "date": "2021-9-2 12:23:56"
+               },
+               {
+                    "message": "update homework 2-2, 3",
+                    "committer": "rura6502",
+                    "author": "rura6502",
+                    "date": "2021-9-2 09:28:18"
+               },
+               {
+                    "message": "Merge branch 'openstack-kr:main' into fix-mnist",
+                    "committer": "GitHub",
+                    "author": "Doa Choi",
+                    "date": "2021-9-2 02:12:09"
+               },
+               {
+                    "message": "Remove test files",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-9-1 16:41:25"
+               },
+               {
+                    "message": "Fix pr workflow",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-9-1 16:29:23"
+               },
+               {
+                    "message": "ADD files for workflow test",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-9-1 16:24:28"
+               },
+               {
+                    "message": "Merge branch 'fix-mnist' of https://github.com/pearl0725/contribution-academy-2021 into fix-mnist",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-9-1 16:20:37"
+               },
+               {
+                    "message": "Fix pr workflow",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-9-1 16:20:18"
+               },
+               {
+                    "message": "jiwonyun Week 3 assignment",
+                    "committer": "openstack9332",
+                    "author": "openstack9332",
+                    "date": "2021-9-1 09:55:26"
+               },
+               {
+                    "message": "Merge pull request #24 from openstack-kr/fix_error fix typo error",
+                    "committer": "GitHub",
+                    "author": "Seongsoo Cho",
+                    "date": "2021-9-1 07:57:35"
+               },
+               {
+                    "message": "fix typo error",
+                    "committer": "Seongsoo Cho",
+                    "author": "Seongsoo Cho",
+                    "date": "2021-9-1 07:57:16"
+               },
+               {
+                    "message": "Merge pull request #23 from openstack-kr/fix_error fix typo error",
+                    "committer": "GitHub",
+                    "author": "Seongsoo Cho",
+                    "date": "2021-9-1 07:54:28"
+               },
+               {
+                    "message": "fix typo error",
+                    "committer": "Seongsoo Cho",
+                    "author": "Seongsoo Cho",
+                    "date": "2021-9-1 07:53:42"
+               },
+               {
+                    "message": "Merge pull request #17 from jaeyoung0826/jay_week2-2 2주차 과제 - openstack server list 명령어 동작 원리 파악",
+                    "committer": "GitHub",
+                    "author": "Seongsoo Cho",
+                    "date": "2021-9-1 07:51:23"
+               },
+               {
+                    "message": "Merge pull request #22 from openstack-kr/fix_error Fix all typo and grammer error",
+                    "committer": "GitHub",
+                    "author": "Seongsoo Cho",
+                    "date": "2021-9-1 07:49:27"
+               },
+               {
+                    "message": "Fix all typo and grammer error",
+                    "committer": "Seongsoo Cho",
+                    "author": "Seongsoo Cho",
+                    "date": "2021-9-1 07:48:58"
+               },
+               {
+                    "message": "update week2-2 assignment -> how the command openstack server list works",
+                    "committer": "이재용",
+                    "author": "이재용",
+                    "date": "2021-8-30 15:32:50"
+               },
+               {
+                    "message": "Merge pull request #21 from jiahho/jiho-branch 3주차 과제 : server list field 추가",
+                    "committer": "GitHub",
+                    "author": "Seongsoo Cho",
+                    "date": "2021-9-1 07:07:21"
+               },
+               {
+                    "message": "Merge pull request #19 from SangHoo-c/main 2주차 과제 - openstack server list 명령어 동작 원리 파악 & 3주차 과제",
+                    "committer": "GitHub",
+                    "author": "Seongsoo Cho",
+                    "date": "2021-9-1 07:07:10"
+               },
+               {
+                    "message": "Merge pull request #18 from jaeyoung0826/jay_week3 3주차 과제 : server list field 추가",
+                    "committer": "GitHub",
+                    "author": "Seongsoo Cho",
+                    "date": "2021-9-1 07:06:58"
+               },
+               {
+                    "message": "Merge branch 'main' into jay_week3",
+                    "committer": "GitHub",
+                    "author": "Seongsoo Cho",
+                    "date": "2021-9-1 07:06:50"
+               },
+               {
+                    "message": "Merge pull request #16 from jaeyoung0826/jay_week2-1 2주차 과제 - CLI와 친해지기",
+                    "committer": "GitHub",
+                    "author": "Seongsoo Cho",
+                    "date": "2021-9-1 07:05:16"
+               },
+               {
+                    "message": "Merge pull request #15 from lsmman/main 2주차 & 3주차 server list에 필드 추가하기",
+                    "committer": "GitHub",
+                    "author": "Seongsoo Cho",
+                    "date": "2021-9-1 07:05:06"
+               },
+               {
+                    "message": "Merge pull request #14 from RyanKor/ryanKor 3주차 과제 : server list field 추가 및 2주차 필수 과제 작업 진행",
+                    "committer": "GitHub",
+                    "author": "Seongsoo Cho",
+                    "date": "2021-9-1 07:04:26"
+               },
+               {
+                    "message": "Merge pull request #13 from openstack9332/jiwonyun 2주차 과제 - openstack server list 명령어 동작 원리 파악",
+                    "committer": "GitHub",
+                    "author": "Seongsoo Cho",
+                    "date": "2021-9-1 07:04:17"
+               },
+               {
+                    "message": "Merge pull request #12 from rura6502/main 2주차 과제 - CLI와 친해지기",
+                    "committer": "GitHub",
+                    "author": "Seongsoo Cho",
+                    "date": "2021-9-1 07:04:06"
+               },
+               {
+                    "message": "Merge pull request #11 from JinDDeok/main 2주차 과제 - CLI와 친해지기",
+                    "committer": "GitHub",
+                    "author": "Seongsoo Cho",
+                    "date": "2021-9-1 07:03:55"
+               },
+               {
+                    "message": "Merge pull request #8 from jianny-lee/jian 2주차 과제 - CLI와 친해지기 & 3주차 과제 - openstack server list에 field 추가하기",
+                    "committer": "GitHub",
+                    "author": "Seongsoo Cho",
+                    "date": "2021-9-1 07:03:45"
+               },
+               {
+                    "message": "Merge pull request #7 from Limyoonsu/lys-main 2주차 과제 - CLI와 친해지기",
+                    "committer": "GitHub",
+                    "author": "Seongsoo Cho",
+                    "date": "2021-9-1 07:03:34"
+               },
+               {
+                    "message": "3주차 과제 Add field to openstack server list",
+                    "committer": "JinSeok Kim",
+                    "author": "JinSeok Kim",
+                    "date": "2021-8-31 18:15:51"
+               },
+               {
+                    "message": "Merge pull request #5 from pearl0725/fix-mnist 2주차 과제 - CLI와 친해지기",
+                    "committer": "GitHub",
+                    "author": "Seongsoo Cho",
+                    "date": "2021-8-31 10:08:04"
+               },
+               {
+                    "message": "Merge pull request #4 from spring0913/bmsung 2주차 과제 - CLI와 친해지기",
+                    "committer": "GitHub",
+                    "author": "Seongsoo Cho",
+                    "date": "2021-8-31 10:07:32"
+               },
+               {
+                    "message": "3주차 과제 - openstack server list에 field 추가하기",
+                    "committer": "Jianny",
+                    "author": "Jianny",
+                    "date": "2021-8-31 09:43:28"
+               },
+               {
+                    "message": "2주차 과제 - openstack server list 명령어 동작 원리 파악",
+                    "committer": "Jianny",
+                    "author": "Jianny",
+                    "date": "2021-8-31 09:41:27"
+               },
+               {
+                    "message": "[Update] task2-2(openstack server list 명령어 동작 원리 파악)",
+                    "committer": "jiho-git",
+                    "author": "jiho-git",
+                    "date": "2021-8-31 09:39:07"
+               },
+               {
+                    "message": "[edit] index.rst",
+                    "committer": "SangHoo-c",
+                    "author": "SangHoo-c",
+                    "date": "2021-8-31 08:44:44"
+               },
+               {
+                    "message": "[ADD] week 2-2 & week 3",
+                    "committer": "SangHoo-c",
+                    "author": "SangHoo-c",
+                    "date": "2021-8-31 08:42:12"
+               },
+               {
+                    "message": "[ADD] week2-2",
+                    "committer": "GitHub",
+                    "author": "LEE SANG HOO",
+                    "date": "2021-8-31 07:31:03"
+               },
+               {
+                    "message": "[ADD] week-2-2",
+                    "committer": "SangHoo-c",
+                    "author": "SangHoo-c",
+                    "date": "2021-8-31 07:28:11"
+               },
+               {
+                    "message": "[ADD] 3주차 과제 - openstack server list 에 field 추가하기",
+                    "committer": "spring0913",
+                    "author": "spring0913",
+                    "date": "2021-8-31 01:33:50"
+               },
+               {
+                    "message": "[ADD] task3(openstack server list 에 field 추가하기)",
+                    "committer": "jiho-git",
+                    "author": "jiho-git",
+                    "date": "2021-8-31 00:49:05"
+               },
+               {
+                    "message": "fix week 2-2 doc",
+                    "committer": "lsmman",
+                    "author": "lsmman",
+                    "date": "2021-8-30 23:17:04"
+               },
+               {
+                    "message": "add week3 assignment",
+                    "committer": "lsmman",
+                    "author": "lsmman",
+                    "date": "2021-8-30 20:47:46"
+               },
+               {
+                    "message": "rename week2 & week1 and add content of week2 doc detail",
+                    "committer": "lsmman",
+                    "author": "lsmman",
+                    "date": "2021-8-30 20:44:39"
+               },
+               {
+                    "message": "fix file directory",
+                    "committer": "lsmman",
+                    "author": "lsmman",
+                    "date": "2021-8-30 16:29:28"
+               },
+               {
+                    "message": "add report week2-deep-dive-server-list-command",
+                    "committer": "lsmman",
+                    "author": "lsmman",
+                    "date": "2021-8-24 10:53:45"
+               },
+               {
+                    "message": "fix rst error and add result",
+                    "committer": "lsmman",
+                    "author": "lsmman",
+                    "date": "2021-8-22 19:19:07"
+               },
+               {
+                    "message": "add week2 assignment: be friend with CLI",
+                    "committer": "lsmman",
+                    "author": "lsmman",
+                    "date": "2021-8-22 17:53:27"
+               },
+               {
+                    "message": "update week3-1 assignment-> add fuc to command openstack sever list 1. show project id 2. show created at",
+                    "committer": "이재용",
+                    "author": "이재용",
+                    "date": "2021-8-30 16:32:03"
+               },
+               {
+                    "message": "Merge branch 'openstack-kr:main' into main",
+                    "committer": "GitHub",
+                    "author": "Doa Choi",
+                    "date": "2021-8-30 16:20:32"
+               },
+               {
+                    "message": "Merge branch 'openstack-kr:main' into fix-mnist",
+                    "committer": "GitHub",
+                    "author": "Doa Choi",
+                    "date": "2021-8-30 16:14:00"
+               },
+               {
+                    "message": "2주차 과제 - openstack server list 명령어 동작 원리 파악",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-8-30 16:05:32"
+               },
+               {
+                    "message": "Merge branch 'fix-mnist' of https://github.com/pearl0725/contribution-academy-2021 into fix-mnist",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-8-30 16:03:31"
+               },
+               {
+                    "message": "2주차 과제 - CLI와 친해지기",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-8-30 16:03:22"
+               },
+               {
+                    "message": "2주차 과제 - openstack server list 명령어 동작 원리 파악",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-8-30 16:01:54"
+               },
+               {
+                    "message": "2주차 과제 - openstack server list 명령어 동작 원리 파악",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-8-30 15:57:51"
+               },
+               {
+                    "message": "3주차 과제 : server list field 추가 및 2주차 필수 과제 작업 진행",
+                    "committer": "ryanKor",
+                    "author": "ryanKor",
+                    "date": "2021-8-30 15:56:58"
+               },
+               {
+                    "message": "update week2-1.rst & images -> Getting familiar with the CLI",
+                    "committer": "이재용",
+                    "author": "이재용",
+                    "date": "2021-8-30 15:20:40"
+               },
+               {
+                    "message": "Merge branch 'openstack-kr:main' into main",
+                    "committer": "GitHub",
+                    "author": "jaeyoung0826",
+                    "date": "2021-8-30 14:32:06"
+               },
+               {
+                    "message": "[Update] I Added assignments 4 and 5 to week2-1.rst file.",
+                    "committer": "YoonSoo Lim",
+                    "author": "YoonSoo Lim",
+                    "date": "2021-8-30 14:24:10"
+               },
+               {
+                    "message": "add assignment index in jaeyong_lee folder",
+                    "committer": "이재용",
+                    "author": "이재용",
+                    "date": "2021-8-30 14:23:51"
+               },
+               {
+                    "message": "2주차 - openstack server list 명령어 동작 원리 파악 openstack server, pycharm debug",
+                    "committer": "JinSeok Kim",
+                    "author": "JinSeok Kim",
+                    "date": "2021-8-30 13:30:06"
+               },
+               {
+                    "message": "2주차 과제 - CLI와 친해지기 openstack [server, image, floating ip, router, subent]",
+                    "committer": "JinSeok Kim",
+                    "author": "JinSeok Kim",
+                    "date": "2021-8-30 13:26:39"
+               },
+               {
+                    "message": "[ADD] 2주차 과제 - openstack server list 명령어 동작 원리 파악",
+                    "committer": "spring0913",
+                    "author": "spring0913",
+                    "date": "2021-8-24 08:29:47"
+               },
+               {
+                    "message": "2주차 과제 - CLI 와 친해지기",
+                    "committer": "spring0913",
+                    "author": "spring0913",
+                    "date": "2021-8-21 14:59:18"
+               },
+               {
+                    "message": "Add week3.rst file and images file and Update index.rst file",
+                    "committer": "YoonSoo Lim",
+                    "author": "YoonSoo Lim",
+                    "date": "2021-8-30 08:29:08"
+               },
+               {
+                    "message": "Jiwon Yun Week 2 Task",
+                    "committer": "openstack9332",
+                    "author": "openstack9332",
+                    "date": "2021-8-29 15:42:05"
+               },
+               {
+                    "message": "rename jiwon_yoon -> jiwon_yun",
+                    "committer": "openstack9332",
+                    "author": "openstack9332",
+                    "date": "2021-8-29 15:40:34"
+               },
+               {
+                    "message": "update: optional 문제 솔루션 추가, 파일 네이밍 정리 * 2-4 문제 솔루션 업데이트 * 이미지 파일 네이밍 컨벤션에 따라 변경",
+                    "committer": "rura6502",
+                    "author": "rura6502",
+                    "date": "2021-8-29 15:20:29"
+               },
+               {
+                    "message": "[Update]: Updated the contents of the file.",
+                    "committer": "YoonSoo Lim",
+                    "author": "YoonSoo Lim",
+                    "date": "2021-8-28 05:13:43"
+               },
+               {
+                    "message": "do homework in 2nd week",
+                    "committer": "rura6502",
+                    "author": "rura6502",
+                    "date": "2021-8-26 16:04:11"
+               },
+               {
+                    "message": "Merge pull request #3 from RyanKor/ryanKor 2주차 과제: CLI와 친해지기",
+                    "committer": "GitHub",
+                    "author": "Seongsoo Cho",
+                    "date": "2021-8-24 11:05:12"
+               },
+               {
+                    "message": "Add: week2-1.rst file",
+                    "committer": "YoonSoo Lim",
+                    "author": "YoonSoo Lim",
+                    "date": "2021-8-24 11:04:31"
+               },
+               {
+                    "message": "Merge pull request #1 from jiahho/jiho-branch 2주차 과제 - CLI와 친해지기",
+                    "committer": "GitHub",
+                    "author": "Seongsoo Cho",
+                    "date": "2021-8-24 11:01:49"
+               },
+               {
+                    "message": "[ADD] task2-2(명령어 동작 원리 파악)",
+                    "committer": "jiho-git",
+                    "author": "jiho-git",
+                    "date": "2021-8-24 10:24:18"
+               },
+               {
+                    "message": "Remove test file",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-8-24 10:17:10"
+               },
+               {
+                    "message": "2주차 과제 - CLI와 친해지기",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-8-24 10:13:41"
+               },
+               {
+                    "message": "2주차 과제 진행 완료 (옵션 사항 미해결...)",
+                    "committer": "ryanKor",
+                    "author": "ryanKor",
+                    "date": "2021-8-24 08:39:36"
+               },
+               {
+                    "message": "[ADD] week 2 CLI test",
+                    "committer": "SangHoo-c",
+                    "author": "SangHoo-c",
+                    "date": "2021-8-24 08:00:50"
+               },
+               {
+                    "message": "Add: week2.rst file",
+                    "committer": "YoonSoo Lim",
+                    "author": "YoonSoo Lim",
+                    "date": "2021-8-23 16:35:35"
+               },
+               {
+                    "message": "Update: table of content[index.rst]",
+                    "committer": "YoonSoo Lim",
+                    "author": "YoonSoo Lim",
+                    "date": "2021-8-23 16:34:45"
+               },
+               {
+                    "message": "week2-1 assignment",
+                    "committer": "Jianny",
+                    "author": "Jianny",
+                    "date": "2021-8-23 16:17:13"
+               },
+               {
+                    "message": "Add: index.rst and week2.rst file",
+                    "committer": "YoonSoo Lim",
+                    "author": "YoonSoo Lim",
+                    "date": "2021-8-23 15:40:09"
+               },
+               {
+                    "message": "Merge branch 'fix-mnist' of https://github.com/pearl0725/contribution-academy-2021 into fix-mnist",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-8-21 22:12:27"
+               },
+               {
+                    "message": "2주차 과제 - CLI와 친해지기",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-8-21 21:30:07"
+               },
+               {
+                    "message": "팀 블로그 가이드",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-8-21 21:30:07"
+               },
+               {
+                    "message": "팀 블로그 가이드",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-8-21 21:26:57"
+               },
+               {
+                    "message": "2주차 과제 - CLI와 친해지기",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-8-21 21:25:43"
+               },
+               {
+                    "message": "Update 2주차_과제.rst",
+                    "committer": "GitHub",
+                    "author": "Doa Choi",
+                    "date": "2021-8-21 21:21:08"
+               },
+               {
+                    "message": "Update 2주차_과제.rst",
+                    "committer": "GitHub",
+                    "author": "Doa Choi",
+                    "date": "2021-8-21 21:20:43"
+               },
+               {
+                    "message": "팀 블로그 가이드",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-8-21 21:08:08"
+               },
+               {
+                    "message": "2주차 과제 - CLI와 친해지기",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-8-21 20:40:56"
+               },
+               {
+                    "message": "2주차 과제 - CLI와 친해지기",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-8-21 20:34:37"
+               },
+               {
+                    "message": "팀 블로그 가이드",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-8-21 20:27:36"
+               },
+               {
+                    "message": "2주차 과제 - CLI와 친해지기",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-8-21 20:26:59"
+               },
+               {
+                    "message": "Merge branch 'fix-mnist' of https://github.com/pearl0725/contribution-academy-2021 into fix-mnist",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-8-21 20:24:18"
+               },
+               {
+                    "message": "2주차 과제 - CLI와 친해지기",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-8-21 20:23:04"
+               },
+               {
+                    "message": "2주차 1번째 과제: CLI와 친해지기",
+                    "committer": "ryanKor",
+                    "author": "ryanKor",
+                    "date": "2021-8-21 15:00:33"
+               },
+               {
+                    "message": "[Update] add envlist to tox to fix broken builds",
+                    "committer": "GitHub",
+                    "author": "Doa Choi",
+                    "date": "2021-8-19 16:42:58"
+               },
+               {
+                    "message": "test workflow for github.",
+                    "committer": "GitHub",
+                    "author": "Doa Choi",
+                    "date": "2021-8-19 16:33:40"
+               },
+               {
+                    "message": "test workflow for github",
+                    "committer": "GitHub",
+                    "author": "Doa Choi",
+                    "date": "2021-8-19 16:31:17"
+               },
+               {
+                    "message": "Update test.rst",
+                    "committer": "GitHub",
+                    "author": "Doa Choi",
+                    "date": "2021-8-19 16:29:20"
+               },
+               {
+                    "message": "[Add] add lint to envlist",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-8-19 16:26:11"
+               },
+               {
+                    "message": "[ADD] task2-1(CLI와 친해지기)",
+                    "committer": "jiho-git",
+                    "author": "jiho-git",
+                    "date": "2021-8-19 05:26:25"
+               },
+               {
+                    "message": "[ADD] task directory to jiho_ju",
+                    "committer": "jiho-git",
+                    "author": "jiho-git",
+                    "date": "2021-8-18 15:38:42"
+               },
+               {
+                    "message": "[Fix] jiho_ju name in index.rst",
+                    "committer": "jiho-git",
+                    "author": "jiho-git",
+                    "date": "2021-8-18 14:35:33"
+               },
+               {
+                    "message": "test.rst",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-8-18 13:52:29"
+               },
+               {
+                    "message": "[Update] edit tox.ini",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-8-18 13:51:51"
+               },
+               {
+                    "message": "[ADD] test.rst",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-8-17 13:58:15"
+               },
+               {
+                    "message": "[Update] index.rst",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-8-17 13:53:18"
+               },
+               {
+                    "message": "[Update] edit tox.ini",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-8-17 13:52:02"
+               },
+               {
+                    "message": "Merge branch 'main' of https://github.com/openstack-kr/contribution-academy-2021 into main",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-8-17 04:43:23"
+               },
+               {
+                    "message": "[ADD] add image directories",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-8-17 04:43:04"
+               },
+               {
+                    "message": "Update action.yml",
+                    "committer": "GitHub",
+                    "author": "Doa Choi",
+                    "date": "2021-8-17 04:40:14"
+               },
+               {
+                    "message": "[Update] utf-8 language set",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-8-17 04:32:33"
+               },
+               {
+                    "message": "[Update] tox, venv ignore",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-8-17 04:31:53"
+               },
+               {
+                    "message": "[Update] github action run tox",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-8-17 04:30:15"
+               },
+               {
+                    "message": "Structure with RST based documentation env",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-8-17 04:29:03"
+               },
+               {
+                    "message": "Update: test file",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-8-15 11:14:27"
+               },
+               {
+                    "message": "Update: readme.rst",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-8-15 11:14:05"
+               },
+               {
+                    "message": "Update README.rst",
+                    "committer": "GitHub",
+                    "author": "Doa Choi",
+                    "date": "2021-8-15 10:46:21"
+               },
+               {
+                    "message": "Update README.rst",
+                    "committer": "GitHub",
+                    "author": "Doa Choi",
+                    "date": "2021-8-15 10:40:07"
+               },
+               {
+                    "message": "Update README.rst",
+                    "committer": "GitHub",
+                    "author": "Doa Choi",
+                    "date": "2021-8-15 10:32:22"
+               },
+               {
+                    "message": "Update: readme",
+                    "committer": "GitHub",
+                    "author": "Doa Choi",
+                    "date": "2021-8-15 10:31:49"
+               },
+               {
+                    "message": "[ADD] github action ci",
+                    "committer": "GitHub",
+                    "author": "Doa Choi",
+                    "date": "2021-8-15 09:43:29"
+               },
+               {
+                    "message": "[ADD] contribution openstack team blog",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-8-15 07:33:45"
+               },
+               {
+                    "message": "git ignore file",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-8-15 07:33:08"
+               },
+               {
+                    "message": "[ADD] readme",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-8-15 07:32:11"
+               },
+               {
+                    "message": "[ADD] git attribute file",
+                    "committer": "choidoa-git",
+                    "author": "choidoa-git",
+                    "date": "2021-8-15 07:31:49"
+               },
+               {
+                    "message": "Initial commit",
+                    "committer": "GitHub",
+                    "author": "Seongsoo Cho",
+                    "date": "2021-8-9 01:25:21"
+               }
+          ]
+     },
+     "jiahho/django-blog": {
+          "repoName": "django-blog",
+          "userName": "주지호",
+          "updatedAt": "2021-7-24 08:10:53",
+          "language_url": "https://api.github.com/repos/jiahho/django-blog/languages",
+          "commitInfo": [
+               {
+                    "message": "Add WriteCommentView, UpdateCommentView, comment_delete",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-7-24 08:10:40"
+               },
+               {
+                    "message": "Create comment_list.html & Add comment_list.html to post_detail.html",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-7-23 06:07:59"
+               },
+               {
+                    "message": "Add pre_save signal(file_update_action) & AddPhotoView & AddPostView & post_delete",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-7-22 06:59:09"
+               },
+               {
+                    "message": "Add PostPhotoView & EditPhotoView & delete_photo",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-7-20 16:40:38"
+               },
+               {
+                    "message": "Add EditPostView",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-7-20 13:51:26"
+               },
+               {
+                    "message": "post_detail.html CSS 적용 및 Post Model에 created_string 메서드 생성",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-7-19 15:32:41"
+               },
+               {
+                    "message": "Add PhotoModel to PostModel",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-7-17 07:53:00"
+               },
+               {
+                    "message": "Styling HomeView(post_list)",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-7-3 13:07:07"
+               },
+               {
+                    "message": "Add UpdatePasswordView, LoggedOutOnlyView, LoggedInOnlyView",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-7-3 00:03:07"
+               },
+               {
+                    "message": "Add UserProfileView, UpdateUserProfileView & SuccessMessageMixin Library",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-7-2 09:59:41"
+               },
+               {
+                    "message": "Add login, logout, signup message & form error message",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-7-2 07:52:13"
+               },
+               {
+                    "message": "LoginView, SignUpView CSS 적용",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-7-2 06:51:47"
+               },
+               {
+                    "message": "Make main page beautiful with TailWind CSS",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-6-29 08:20:55"
+               },
+               {
+                    "message": "Setting Up TailWind CSS",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-6-29 00:54:55"
+               },
+               {
+                    "message": "Add SignUpView",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-6-26 13:29:48"
+               },
+               {
+                    "message": "Add user Login & Logout View",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-6-25 11:38:39"
+               },
+               {
+                    "message": "Add Post Detail View, Post Detail Templates",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-6-1 00:21:37"
+               },
+               {
+                    "message": "Add post_list View, post_list Template",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-6-1 00:00:35"
+               },
+               {
+                    "message": "Add Post Model, Comment Model, PostAdmin Model, and CommentAdmin Model",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-5-26 09:10:48"
+               },
+               {
+                    "message": "Create Django Blog Project and Add Users, Posts, Comments Apps",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-5-21 00:47:45"
+               }
+          ]
+     },
+     "jiahho/Github-API": {
+          "repoName": "Github-API",
+          "userName": "주지호",
+          "updatedAt": "2022-2-18 17:43:47",
+          "language_url": "https://api.github.com/repos/jiahho/Github-API/languages",
+          "commitInfo": [
+               {
+                    "message": "update .gitignore",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-3-10 08:26:16"
+               },
+               {
+                    "message": "feat: add get_user_info method in GitHubAPIShell object",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-3-10 08:20:00"
+               },
+               {
+                    "message": "add README.md",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-2-18 17:43:41"
+               },
+               {
+                    "message": "add result json file (repo & commit info)",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-2-18 17:29:04"
+               },
+               {
+                    "message": "feat: add command line interface",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-2-18 17:27:24"
+               },
+               {
+                    "message": "feat: add GitHubAPIShell object",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-2-18 17:04:08"
+               },
+               {
+                    "message": "Initial commit",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-2-18 16:05:23"
+               }
+          ]
+     },
+     "jiahho/instagram": {
+          "repoName": "instagram",
+          "userName": "주지호",
+          "updatedAt": "2022-1-25 16:17:43",
+          "language_url": "https://api.github.com/repos/jiahho/instagram/languages",
+          "commitInfo": [
+               {
+                    "message": "feat: create modal window for uploading image",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-1-27 14:25:32"
+               },
+               {
+                    "message": "feat: create Feed Object Class",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-1-26 05:05:15"
+               },
+               {
+                    "message": "feat: add instagram basic main page",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-1-25 16:17:33"
+               },
+               {
+                    "message": "feat: add django apps - user app - content app",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-1-25 14:13:53"
+               },
+               {
+                    "message": "feat: init instagram django project",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-1-19 17:28:14"
+               },
+               {
+                    "message": "Initial commit",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-1-19 17:22:05"
+               }
+          ]
+     },
+     "jiahho/jiahho.github.io": {
+          "repoName": "jiahho.github.io",
+          "userName": "주지호",
+          "updatedAt": "2021-9-29 11:26:22",
+          "language_url": "https://api.github.com/repos/jiahho/jiahho.github.io/languages",
+          "commitInfo": [
+               {
+                    "message": "Site updated: 2021-09-29 20:26:14",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2021-9-29 11:26:14"
+               },
+               {
+                    "message": "Site updated: 2021-09-28 09:51:35",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2021-9-28 00:51:35"
+               },
+               {
+                    "message": "Site updated: 2021-09-28 09:40:35",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2021-9-28 00:40:35"
+               },
+               {
+                    "message": "Site updated: 2021-09-15 16:24:03",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2021-9-15 07:24:03"
+               },
+               {
+                    "message": "Site updated: 2021-09-07 07:24:37",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2021-9-6 22:24:37"
+               },
+               {
+                    "message": "Site updated: 2021-09-05 20:40:55",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2021-9-5 11:40:55"
+               },
+               {
+                    "message": "Site updated: 2021-09-05 20:38:30",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2021-9-5 11:38:30"
+               },
+               {
+                    "message": "Site updated: 2021-09-04 19:06:27",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2021-9-4 10:06:28"
+               },
+               {
+                    "message": "Site updated: 2021-09-04 19:02:20",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2021-9-4 10:02:20"
+               },
+               {
+                    "message": "Site updated: 2021-09-04 19:00:15",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2021-9-4 10:00:15"
+               },
+               {
+                    "message": "Site updated: 2021-09-04 18:58:45",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2021-9-4 09:58:45"
+               },
+               {
+                    "message": "Site updated: 2021-09-04 18:57:44",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2021-9-4 09:57:44"
+               },
+               {
+                    "message": "Site updated: 2021-09-04 18:57:04",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2021-9-4 09:57:04"
+               },
+               {
+                    "message": "Site updated: 2021-09-04 18:54:13",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2021-9-4 09:54:13"
+               },
+               {
+                    "message": "Site updated: 2021-09-04 18:12:38",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2021-9-4 09:12:38"
+               },
+               {
+                    "message": "Site updated: 2021-09-04 16:16:25",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2021-9-4 07:16:25"
+               },
+               {
+                    "message": "Site updated: 2021-09-04 16:09:59",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2021-9-4 07:09:59"
+               },
+               {
+                    "message": "Site updated: 2021-09-04 16:02:19",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2021-9-4 07:02:19"
+               },
+               {
+                    "message": "Site updated: 2021-09-03 18:25:49",
+                    "committer": "jiho-git",
+                    "author": "jiho-git",
+                    "date": "2021-9-3 09:25:49"
+               },
+               {
+                    "message": "Site updated: 2021-09-03 18:12:14",
+                    "committer": "jiho-git",
+                    "author": "jiho-git",
+                    "date": "2021-9-3 09:12:14"
+               },
+               {
+                    "message": "Site updated: 2021-09-03 17:05:24",
+                    "committer": "jiho-git",
+                    "author": "jiho-git",
+                    "date": "2021-9-3 08:05:24"
+               },
+               {
+                    "message": "Site updated: 2021-09-03 16:39:19",
+                    "committer": "jiho-git",
+                    "author": "jiho-git",
+                    "date": "2021-9-3 07:39:19"
+               },
+               {
+                    "message": "Site updated: 2021-09-03 16:16:47",
+                    "committer": "jiho-git",
+                    "author": "jiho-git",
+                    "date": "2021-9-3 07:16:47"
+               },
+               {
+                    "message": "Site updated: 2021-09-03 15:53:44",
+                    "committer": "jiho-git",
+                    "author": "jiho-git",
+                    "date": "2021-9-3 06:53:44"
+               },
+               {
+                    "message": "Site updated: 2021-09-03 15:40:48",
+                    "committer": "jiho-git",
+                    "author": "jiho-git",
+                    "date": "2021-9-3 06:40:48"
+               },
+               {
+                    "message": "Site updated: 2021-09-03 00:23:10",
+                    "committer": "jiho-git",
+                    "author": "jiho-git",
+                    "date": "2021-9-2 15:23:10"
+               },
+               {
+                    "message": "Site updated: 2021-09-03 00:20:47",
+                    "committer": "jiho-git",
+                    "author": "jiho-git",
+                    "date": "2021-9-2 15:20:47"
+               },
+               {
+                    "message": "Site updated: 2021-09-03 00:15:35",
+                    "committer": "jiho-git",
+                    "author": "jiho-git",
+                    "date": "2021-9-2 15:15:35"
+               },
+               {
+                    "message": "Site updated: 2021-09-03 00:10:02",
+                    "committer": "jiho-git",
+                    "author": "jiho-git",
+                    "date": "2021-9-2 15:10:02"
+               },
+               {
+                    "message": "Site updated: 2021-09-03 00:06:26",
+                    "committer": "jiho-git",
+                    "author": "jiho-git",
+                    "date": "2021-9-2 15:06:27"
+               },
+               {
+                    "message": "Site updated: 2021-09-03 00:01:38",
+                    "committer": "jiho-git",
+                    "author": "jiho-git",
+                    "date": "2021-9-2 15:01:38"
+               },
+               {
+                    "message": "Site updated: 2021-09-03 00:00:05",
+                    "committer": "jiho-git",
+                    "author": "jiho-git",
+                    "date": "2021-9-2 15:00:05"
+               },
+               {
+                    "message": "Site updated: 2021-09-02 23:58:22",
+                    "committer": "jiho-git",
+                    "author": "jiho-git",
+                    "date": "2021-9-2 14:58:22"
+               },
+               {
+                    "message": "Site updated: 2021-09-02 23:53:37",
+                    "committer": "jiho-git",
+                    "author": "jiho-git",
+                    "date": "2021-9-2 14:53:37"
+               },
+               {
+                    "message": "Site updated: 2021-09-02 23:50:11",
+                    "committer": "jiho-git",
+                    "author": "jiho-git",
+                    "date": "2021-9-2 14:50:11"
+               },
+               {
+                    "message": "Site updated: 2021-09-02 23:49:19",
+                    "committer": "jiho-git",
+                    "author": "jiho-git",
+                    "date": "2021-9-2 14:49:20"
+               },
+               {
+                    "message": "Site updated: 2021-09-02 23:48:52",
+                    "committer": "jiho-git",
+                    "author": "jiho-git",
+                    "date": "2021-9-2 14:48:52"
+               },
+               {
+                    "message": "Site updated: 2021-09-02 23:45:30",
+                    "committer": "jiho-git",
+                    "author": "jiho-git",
+                    "date": "2021-9-2 14:45:30"
+               },
+               {
+                    "message": "Site updated: 2021-09-02 23:44:40",
+                    "committer": "jiho-git",
+                    "author": "jiho-git",
+                    "date": "2021-9-2 14:44:40"
+               },
+               {
+                    "message": "Site updated: 2021-09-02 23:39:38",
+                    "committer": "jiho-git",
+                    "author": "jiho-git",
+                    "date": "2021-9-2 14:39:38"
+               },
+               {
+                    "message": "Site updated: 2021-09-02 23:33:39",
+                    "committer": "jiho-git",
+                    "author": "jiho-git",
+                    "date": "2021-9-2 14:33:39"
+               },
+               {
+                    "message": "Site updated: 2021-09-02 23:30:02",
+                    "committer": "jiho-git",
+                    "author": "jiho-git",
+                    "date": "2021-9-2 14:30:02"
+               },
+               {
+                    "message": "Site updated: 2021-09-02 23:29:11",
+                    "committer": "jiho-git",
+                    "author": "jiho-git",
+                    "date": "2021-9-2 14:29:11"
+               },
+               {
+                    "message": "Site updated: 2021-09-02 23:27:18",
+                    "committer": "jiho-git",
+                    "author": "jiho-git",
+                    "date": "2021-9-2 14:27:18"
+               },
+               {
+                    "message": "Site updated: 2021-09-02 23:26:32",
+                    "committer": "jiho-git",
+                    "author": "jiho-git",
+                    "date": "2021-9-2 14:26:32"
+               },
+               {
+                    "message": "Site updated: 2021-09-02 23:24:37",
+                    "committer": "jiho-git",
+                    "author": "jiho-git",
+                    "date": "2021-9-2 14:24:37"
+               },
+               {
+                    "message": "Site updated: 2021-09-02 23:22:51",
+                    "committer": "jiho-git",
+                    "author": "jiho-git",
+                    "date": "2021-9-2 14:22:51"
+               },
+               {
+                    "message": "Site updated: 2021-09-02 23:17:05",
+                    "committer": "jiho-git",
+                    "author": "jiho-git",
+                    "date": "2021-9-2 14:17:05"
+               },
+               {
+                    "message": "First commit",
+                    "committer": "jiho-git",
+                    "author": "jiho-git",
+                    "date": "2021-9-2 14:17:05"
+               }
+          ]
+     },
+     "jiahho/Job-Scrapper": {
+          "repoName": "Job-Scrapper",
+          "userName": "주지호",
+          "updatedAt": "2021-3-31 12:28:22",
+          "language_url": "https://api.github.com/repos/jiahho/Job-Scrapper/languages",
+          "commitInfo": [
+               {
+                    "message": "Update README",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-3-31 12:28:16"
+               },
+               {
+                    "message": "Add index.html, search.html(Flask) and exporter.py(csv)",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-3-31 12:23:27"
+               },
+               {
+                    "message": "Add get_jobs.py about jobKorea, saramIn",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-3-31 10:08:03"
+               },
+               {
+                    "message": "Create README.md",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-3-29 04:00:15"
+               }
+          ]
+     },
+     "jiahho/kokoa-clone": {
+          "repoName": "kokoa-clone",
+          "userName": "주지호",
+          "updatedAt": "2022-2-25 06:27:36",
+          "language_url": "https://api.github.com/repos/jiahho/kokoa-clone/languages",
+          "commitInfo": [
+               {
+                    "message": "Merge pull request #1 from jminili/main update README.md",
+                    "committer": "GitHub",
+                    "author": "주지호",
+                    "date": "2022-2-25 06:27:31"
+               },
+               {
+                    "message": "update README.md",
+                    "committer": "LeeJeongMin",
+                    "author": "LeeJeongMin",
+                    "date": "2022-2-25 06:21:31"
+               },
+               {
+                    "message": "chats.html img translate update",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-3-15 15:19:18"
+               },
+               {
+                    "message": "super -> too",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-3-15 15:09:54"
+               },
+               {
+                    "message": "Update text",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-3-15 15:06:15"
+               },
+               {
+                    "message": "Updates images, texts etc",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-3-15 14:57:36"
+               },
+               {
+                    "message": "too -> super",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-3-15 14:20:35"
+               },
+               {
+                    "message": "Add media and Update chats.html css and Complete!",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-3-15 13:58:33"
+               },
+               {
+                    "message": "Add animations",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-3-15 01:05:46"
+               },
+               {
+                    "message": "Add chat.html .css, chats.html .css find.html .css friends.html .css more.html .css, settings.html .css",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-3-14 14:35:19"
+               },
+               {
+                    "message": "Add navigation bar and user-component.css and friends.html, css",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-3-12 06:15:25"
+               },
+               {
+                    "message": "Complete index.html and Add Navigation bar css",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-3-11 14:25:35"
+               },
+               {
+                    "message": "Add index.html and status bar css",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-3-10 13:34:12"
+               },
+               {
+                    "message": "Added Screenshots and .gitignore",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-3-10 02:42:36"
+               },
+               {
+                    "message": "Update README.md",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-3-10 02:25:29"
+               },
+               {
+                    "message": "Create README.md",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-3-10 02:22:55"
+               }
+          ]
+     },
+     "jiahho/logobjparser": {
+          "repoName": "logobjparser",
+          "userName": "주지호",
+          "updatedAt": "2022-2-24 09:41:50",
+          "language_url": "https://api.github.com/repos/jiahho/logobjparser/languages",
+          "commitInfo": [
+               {
+                    "message": "update .gitignore",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-3-2 08:42:46"
+               },
+               {
+                    "message": "Merge pull request #16 from jiahho/issue#14 [Issue#14] Remove test objects, methods, and annotations etc...",
+                    "committer": "GitHub",
+                    "author": "주지호",
+                    "date": "2022-2-27 08:51:35"
+               },
+               {
+                    "message": "rename: main.py -> shell.py [#14]",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-2-27 08:21:40"
+               },
+               {
+                    "message": "style: delete unnecessary path regex patterns and annotations [#14]",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-2-27 08:20:51"
+               },
+               {
+                    "message": "Merge pull request #15 from jiahho/issue#14 [Issue#14] Remove test objects, methods, and annotations etc...",
+                    "committer": "GitHub",
+                    "author": "주지호",
+                    "date": "2022-2-27 08:25:49"
+               },
+               {
+                    "message": "rename: main.py -> shell.py [#14]",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-2-27 08:21:40"
+               },
+               {
+                    "message": "style: delete unnecessary path regex patterns and annotations [#14]",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-2-27 08:20:51"
+               },
+               {
+                    "message": "remove: delete LogObjParser/LogObjIdentifier.py [#14]",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-2-27 08:18:48"
+               },
+               {
+                    "message": "Merge pull request #13 from jiahho/issue#12 Issue#12: Increasing the accuracy of recognized Time, Date, IP, and PATH obj",
+                    "committer": "GitHub",
+                    "author": "주지호",
+                    "date": "2022-2-27 05:55:33"
+               },
+               {
+                    "message": "improve: increasing the accuracy of recognized File Path [#12] Dealing with the problem below - <kernel>/opt/stack/data/nova/instance/kernel</kernel>\\n - 'PATH': '/opt/stack/data/nova/instances/kernel</kernel>\\\\n' - 해결 방법 - File Path 인식 전에 '</kernel>' 같은 obj & '/>' 제거 - 인식된 File Path 에서 \\\\n 제거 문자 추가",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-2-25 07:37:22"
+               },
+               {
+                    "message": "improve: increasing the accuracy of recognized IP [#12] Solving the problems below - 'IP': '10.0.0.0/24' -> '10.0.0.0' 로 인식 - 'IP': '\\n10.0.0.0/24' -> 'n10.0.0.0/24' - 0.0.0.0/0.0.0.0:0 -> 'IP': '0.0.0.0', '/0.0.0.0' 까지만 인식 - aa-172.17.0.2-aa -> '-172.17.0.2-' 인식",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-2-25 04:05:32"
+               },
+               {
+                    "message": "improve: update Time, Date custom grok pattern [#12] About the case below, - \"DATE\": '11/Aug/2014' -> 인식 가능 - \"TIME\": '00:29Z' -> 인식 가능 Please enter the commit message for your changes. Lines starting",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-2-24 10:51:09"
+               },
+               {
+                    "message": "improve: remove unnecessary str obj from URI obj [#12] 인식된 URI obj 에서 처음과 마지막의 불필요한 str obj 제거",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-2-24 10:01:13"
+               },
+               {
+                    "message": "improve: add custom IP grok pattern [#12] - GET, POST 이외에 PUT, DELETE 도 고려",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-2-24 09:46:53"
+               },
+               {
+                    "message": "fix: remove unnecessary str obj from recognized ip obj [#12] In the case below - '0.0.0.0\"' - '/127.0.0.1]'",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-2-24 09:36:21"
+               },
+               {
+                    "message": "Merge pull request #11 from jiahho/issue#10 improve: deal with IP obj among overlapping objs [#10]",
+                    "committer": "GitHub",
+                    "author": "주지호",
+                    "date": "2022-2-24 09:19:23"
+               },
+               {
+                    "message": "improve: deal with IP obj among overlapping objs [#10]",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-2-24 09:15:06"
+               },
+               {
+                    "message": "Merge pull request #9 from jiahho/issue#8 Dealing with file path obj among overlapping objs [#8]",
+                    "committer": "GitHub",
+                    "author": "주지호",
+                    "date": "2022-2-24 08:47:21"
+               },
+               {
+                    "message": "improve: dealing with file path obj among overlapping objs [#8]",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-2-24 08:25:58"
+               },
+               {
+                    "message": "feat: add upload_sub_path_regex function in handle_pattern [#8] A log data 에서 obj 를 인식하기 전에 제거해줄 obj 의 regex 객체들을 dictionary 형태로 리턴",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-2-24 07:52:18"
+               },
+               {
+                    "message": "fix: deal with wrong path obj recognition problem [#8] resolve the following cases - 0%/0% of on/off-heap limit -> 'PATH': '/0%' - 30680/61361 -> 'PATH': '/60361' - 위2개 case 는 인식 X - path spec: /node/* -> 'PATH': '/node/' - updated: 'PATH': '/node/*' - Path Grok Pattern 마지막에 [\\S]+ 를 추가로 인한 문제 - /aa/pattern.py:33]']) -> 'PATH': '/aa/pattern.py:33]\"])' - strip() 함수 사용: 불필요한 obj 제거",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-2-23 17:33:29"
+               },
+               {
+                    "message": "Merge pull request #7 from jiahho/issue#6 fix: recognize the wrong File Path obj from a log data [#6]",
+                    "committer": "GitHub",
+                    "author": "주지호",
+                    "date": "2022-2-22 19:26:20"
+               },
+               {
+                    "message": "fix: recognize the wrong File Path obj from a log data [#6] 아래 2가지 문제를 해결 1. 아래 예시와 같이 잘못된 file path obj 를 인식 - '/proc/sys/net/core/somaxconn: 128' - 128: 서버 소켓에서 accept()를 기다리는 소켓 개수 (제한) 으로 파일 내 코드 라인(줄)을 의미X - /home/james/hadoop-2.7.4/hdfs/data/current: 13ms 를 다음처럼 인식 - '/home/james/hadoop-2.7.4/hdfs/data/current: 13' 2. 아래 예시와 같이 필요없는 str obj 포함 - '=/home/james/hadoop-2.7.4/hdfs/data/current,' - '/home/james/hadoop-2.7.4/hdfs/data/current...'",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-2-22 19:13:04"
+               },
+               {
+                    "message": "Merge pull request #5 from jiahho/issue-3 fix: recognize the wrong Time obj from a log data [#4]",
+                    "committer": "GitHub",
+                    "author": "주지호",
+                    "date": "2022-2-22 17:48:53"
+               },
+               {
+                    "message": "fix: recognize the wrong Time obj from a log data [#4] - 아래와 같이 time obj 를 잘못 인식 - {\"address\": \"0000:00:06.2} -> \"TIME\": '00:00:06.2' - is set to 000:00:00:00.000 -> \"TIME\": '00:00:00:00' - 02:42:ac:ff:fe:11:00:02 -> \"TIME\": '11:00:02' - time obj 를 인식하기 전에 subtract from a log - subtract from a log 를 위한 custom grok pattern 생성 - get_time_objs 함수 추가",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-2-22 17:30:58"
+               },
+               {
+                    "message": "Merge pull request #3 from jiahho/issue-2 Add the main function of parsing log data [Issue #2]",
+                    "committer": "GitHub",
+                    "author": "주지호",
+                    "date": "2022-2-22 16:13:07"
+               },
+               {
+                    "message": "refactor: LogObjParser Object & method using the parser library [#2]",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-2-22 14:46:07"
+               },
+               {
+                    "message": "feat: add main function for parsing a log data [#2] - parse_log_data function - get_all_objs function",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-2-22 13:40:56"
+               },
+               {
+                    "message": "chore: modify the number of log data",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-2-21 14:50:56"
+               },
+               {
+                    "message": "chore: update Date custom grok pattern solving the problem below - 'Mon, 11 Aug 2014' -> only identifying '11 Aug 2014' - '1 Mar 2016' -> only identifying 'Mar 2016'",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-2-17 09:32:29"
+               },
+               {
+                    "message": "refactor: methods & variables in LogObjIdentifier Object - detecting_overlap_of_log_objs - recognize_all_log_objs",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-2-16 08:40:05"
+               },
+               {
+                    "message": "chore: update DATE, URI grok pattern - before - (DATE) \"Wed Jun 14\" -> only recognize \"Jun 14\" - (URI) \"GET /identity/v3/auth/tokens\" -> recognize as a file path - (URI) \"GET /v2.0/ports?tenant_id=3efed2c1d335441296b8b2930d0a9b97 &device_id=2d4c489e-83f6-40e4-b7cc-cfb12692bbf9\" is recognized as \"GET /v2.0/ports\" - after - (DATE) \"Wed Jun 14\" -> recognize \"Wed Jun 14\" - (URI) \"GET /identity/v3/auth/tokens\" -> URI is also recognized - (URI) \"Solved\"",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-2-15 03:51:53"
+               },
+               {
+                    "message": "Merge pull request #1 from jiahho/issue4 Issue4",
+                    "committer": "GitHub",
+                    "author": "주지호",
+                    "date": "2022-2-14 15:08:48"
+               },
+               {
+                    "message": "feat: add display_char_position_overlapping_part_by_in method in LogIdentifier Two methods to show overlapping obj positions - display_char_position_overlapping_part_by_ratio - display_char_position_overlapping_part_by_in",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-2-14 15:05:39"
+               },
+               {
+                    "message": "feat: add LogIdentifier Object",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-2-11 08:05:04"
+               },
+               {
+                    "message": "chore: update grok custom pattern (Date) - Before update recognize \"March 2016\" as \"March 20\"",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-2-9 21:53:59"
+               },
+               {
+                    "message": "feat: add recognize_all_obj method in LogParser",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-2-8 14:58:52"
+               },
+               {
+                    "message": "chores: update extract_log_from_path func in handle_file module",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-1-25 03:23:00"
+               },
+               {
+                    "message": "docs: update README.md",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-1-25 03:09:34"
+               },
+               {
+                    "message": "feat: add cli interface Use click library",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-1-24 15:30:22"
+               },
+               {
+                    "message": "feat: add run method in LogParser",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-1-24 15:29:21"
+               },
+               {
+                    "message": "feat: add extract_log_from_path function in handle_file module",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-1-24 15:22:30"
+               },
+               {
+                    "message": "feat: add main.py for testing",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-1-24 13:45:03"
+               },
+               {
+                    "message": "chores: fix variable typo in LogObjParser.py, handle_file.py",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-1-19 09:12:46"
+               },
+               {
+                    "message": "comment: annotate objects, method, function, variables, etc",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-1-19 09:07:40"
+               },
+               {
+                    "message": "feat: add LogParser object & method Added method - parse - get_time - get_date - get_uri - get_ip - get_file_path - is_valid_path - get_valid_path - subtract_obj_from_string",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-1-18 15:56:18"
+               },
+               {
+                    "message": "chore: update grok custom pattern & add regex obj - time custom pattern - file path custom pattern",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-1-18 14:47:16"
+               },
+               {
+                    "message": "feat: add output_obj_to_csv function",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-1-18 08:34:24"
+               },
+               {
+                    "message": "feat: add patterns module Add 2 functions - upload_grok_obj - upload_regex_obj",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-1-18 06:57:44"
+               },
+               {
+                    "message": "feat: add handle_file module",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-1-18 06:00:23"
+               },
+               {
+                    "message": "Initial commit",
+                    "committer": "JIHOJU",
+                    "author": "JIHOJU",
+                    "date": "2022-1-18 05:25:29"
+               }
+          ]
+     },
+     "jiahho/review-site": {
+          "repoName": "review-site",
+          "userName": "주지호",
+          "updatedAt": "2021-8-3 04:39:25",
+          "language_url": "https://api.github.com/repos/jiahho/review-site/languages",
+          "commitInfo": [
+               {
+                    "message": "fix: form template name",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-8-3 04:39:09"
+               },
+               {
+                    "message": "feat: Add SearchView * Create Book, Movie title Search View",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-8-2 17:00:12"
+               },
+               {
+                    "message": "fix: 각 template title 태그 값 * context 변수로 받은 title tag 값을 template에서 block 으로 수정",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-8-2 15:53:17"
+               },
+               {
+                    "message": "feat: Add ProfileUpdateView * UpdateView 상속 * Create profile_update.html",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-8-1 16:26:09"
+               },
+               {
+                    "message": "feat: Add UserProfileView * Create profile.html * Add url(profile) to nav.html * Create ProfileView",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-8-1 16:15:40"
+               },
+               {
+                    "message": "feat:Add SignUp View",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-7-31 11:47:49"
+               },
+               {
+                    "message": "feat: Add log_out func * log_out Function * nav.html에 로그인 상태 확인 조건(is_authenticated) 추가",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-7-31 09:49:17"
+               },
+               {
+                    "message": "feat:Update form template for showing errors",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-7-31 09:42:46"
+               },
+               {
+                    "message": "feat: Add LoginView, LoginForm",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-7-31 09:40:30"
+               },
+               {
+                    "message": "feat: Add header (nav.html) to base.html",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-7-31 09:39:58"
+               },
+               {
+                    "message": "feat: Add UpdateView * Add UpdateView func to books, movies, people views * Add get_context_data method to every func in movies, books, people views",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-7-27 11:18:34"
+               },
+               {
+                    "message": "feat: Add CreateView * to books.views, movies.views, people.views * Create form template * Create books, movies, people create templates",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-7-27 10:40:49"
+               },
+               {
+                    "message": "feat: Add get_absolute_url method to books, movies, people Model",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-7-27 10:38:44"
+               },
+               {
+                    "message": "feat: Add DetailView * Add DetailView to books.views, movies.views, people.views * Create book, movie, person deatil template",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-7-27 08:12:33"
+               },
+               {
+                    "message": "fix:Update ListView templates & ListView template location * Update book_list.html, movie_list.html, people.html template",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-7-27 07:48:55"
+               },
+               {
+                    "message": "fix: Update how to pass the variable of \"page_title\" * Add get_context_data() method to BookHomeView, MovieHomeView, PeopleHomeView * Add \"page_title\":\"Home\" to HomeView context",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-7-27 07:07:12"
+               },
+               {
+                    "message": "feat: Add ListView to apps * Add ListView to books, movies, people apps * Create list templates for movies, books, people",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-7-27 06:57:15"
+               },
+               {
+                    "message": "각 page객체 구하는 함수를 get_page()에서 page() 메소드로 변경 및 Paginator.page 객체 예외처리 로직 추가",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-7-23 07:36:01"
+               },
+               {
+                    "message": "Movie, Book, Person 최신 순으로 resolve_home에서 보여줌 & 각 obj_list 마다 Paginator 생성",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-7-22 08:32:44"
+               },
+               {
+                    "message": "books, categories, home, search, movies, people 각 URL&View 추가",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-7-22 07:15:08"
+               },
+               {
+                    "message": "MovieModel cast field manytomany로 수정 및 seed_movies.py에서 cast 데이터 생성 로직 수정",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-7-19 07:57:47"
+               },
+               {
+                    "message": "Media 폴더 경로 설정(Book, Movie cover_image 업로드 경로)",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-7-19 07:16:09"
+               },
+               {
+                    "message": "Django-seed로 users, books, movies, categories, favs, people, reviews 테스트 데이터 생성",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-7-19 07:05:26"
+               },
+               {
+                    "message": "books, categories, favs, movies, people, reviews 모델과 각 Admin 모델 추가 및 users 모델 genre 필드 Foreign key로 변경",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-7-15 15:34:23"
+               },
+               {
+                    "message": "Core App 생성 & TimeStampedModel 추가",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-7-13 15:17:31"
+               },
+               {
+                    "message": "review-site 장고 프로젝트 생성 & UserApp, AbstractUserModel, UserAdminModel 추가",
+                    "committer": "ziho",
+                    "author": "ziho",
+                    "date": "2021-7-13 15:10:45"
+               }
+          ]
+     }
+}
