@@ -4,6 +4,8 @@ from github import Github
 import json
 import urllib.request
 import sys
+import csv
+import random
 
 URL = "https://api.github.com/users/"
 
@@ -52,11 +54,14 @@ class GitHubAPIShell:
 
     def run(self):
         gen = read_file(self.filepath)  # 파일 데이터 generator
-        for github_id in gen:
-            self.user = self.g.get_user(github_id)
-
-            write_commit_info_in_json(self.get_repo_info(), "commit_info.json")
-            write_commit_info_in_json(self.get_user_info(), "user_info.json")
+        with open('./member.csv', 'w') as f:
+            wr = csv.writer(f)
+            wr.writerow(["Github_id", "Avatar_url", "User_name", "Company", "Bio", "Location", "User_github_url", \
+                         "Followers", "Level", "Group_cnt", "User_rank_id", "Super_github_id"])
+            for github_id in gen:
+                self.user = self.g.get_user(github_id)
+                wr.writerow([value for _, value in self.get_user_info().items()])
+                print("끝")
 
         return 0
 
@@ -65,17 +70,20 @@ class GitHubAPIShell:
         user_infos = OrderedDict()
 
         user_infos["login"] = self.user.login
-        user_infos["name"] = self.user.name
-        user_infos["email"] = self.user.email
         user_infos["avatar_url"] = self.user.avatar_url
+        user_infos["name"] = self.user.name
+        # user_infos["email"] = self.user.email
         user_infos["company"] = self.user.company
         user_infos["bio"] = self.user.bio
         user_infos["location"] = self.user.location
         user_infos["html_url"] = self.user.html_url
-        user_infos["ghchart_url"] = f"https://ghchart.rshah.org/{self.github_id}"
+        # user_infos["ghchart_url"] = f"https://ghchart.rshah.org/{self.github_id}"
         user_infos["followers"] = self.user.followers
+        user_infos["level"] = 1
         user_infos["group_cnt"] = 0
-        user_infos["languages"] = self.get_language_stat()
+        user_infos["user_rank_id"] = 0
+        user_infos["super_github_id"] = random.randint(1, 50)
+        # user_infos["languages"] = self.get_language_stat()
 
         return user_infos
 
