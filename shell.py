@@ -14,15 +14,27 @@ URL = "https://api.github.com/users/"
         pprint(user_data)"""
 
 
-def write_commit_info_in_json(data, file_name):
+def write_commit_info_in_json(data, path):
     """ Json 파일로 저장
 
     :param data: 모든 public repo 의 정보
     :return:
     """
 
-    with open(f'./{file_name}', 'w') as outfile:
+    with open(f'./{path}', 'w') as outfile:
         json.dump(data, outfile, ensure_ascii=False, indent=5)
+
+
+def read_file(path):
+    """ 파일 내 Github ID 를 읽기 위한 함수
+
+    :param path: 파일 경로
+    :return: github id generator
+    """
+    with open(f'{path}', 'r') as f:
+        contents = f.readlines()
+        for github_id in contents:
+            yield github_id.strip().split()[1]
 
 
 class GitHubAPIShell:
@@ -33,16 +45,18 @@ class GitHubAPIShell:
     """
 
     def __init__(self, argv):
-        self.github_id = argv  # argv : GitHug ID
+        self.g = Github(login_or_token="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")  # github api object
+        self.filepath = argv  # argv: Github ID를 담은 파일 경로
         self.user = None  # GitHub user 객체 담기 위함
         self.languages_url = list()
 
     def run(self):
-        g = Github(login_or_token="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")
-        self.user = g.get_user(self.github_id)
+        gen = read_file(self.filepath)  # 파일 데이터 generator
+        for github_id in gen:
+            self.user = self.g.get_user(github_id)
 
-        write_commit_info_in_json(self.get_repo_info(), "commit_info.json")
-        write_commit_info_in_json(self.get_user_info(), "user_info.json")
+            write_commit_info_in_json(self.get_repo_info(), "commit_info.json")
+            write_commit_info_in_json(self.get_user_info(), "user_info.json")
 
         return 0
 
@@ -145,12 +159,13 @@ class GitHubAPIShell:
 
 
 @click.command()
-@click.option("--id", '-i', help="Enter the GitHub ID in str format", required=True)  # github id
-def main(id=None):
-    if id is None:
+# @click.option("--id", '-i', help="Enter the GitHub ID in str format", required=False)  # github id
+@click.option("--path", '-p', help="Enter the file path containing githubIDs", required=False)  # file path
+def main(path=None):
+    if path is None:
         return 0
 
-    return GitHubAPIShell(id).run()
+    return GitHubAPIShell(path).run()
 
 
 if __name__ == '__main__':
