@@ -1,17 +1,15 @@
 import click
 from collections import OrderedDict
-import github
 from github import Github
 import json
 import urllib.request
-import pprint
 import sys
 
 URL = "https://api.github.com/users/"
 
 """ url 로 github api 호출
     def get_user_info(self):
-        headers = {'Authorization': "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"}
+        headers = {'Authorization': "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"}
         user_data = requests.get(URL + self.github_id, headers=headers).json()
         pprint(user_data)"""
 
@@ -40,7 +38,7 @@ class GitHubAPIShell:
         self.languages_url = list()
 
     def run(self):
-        g = Github(login_or_token="<token 입력>")
+        g = Github(login_or_token="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")
         self.user = g.get_user(self.github_id)
 
         write_commit_info_in_json(self.get_repo_info(), "commit_info.json")
@@ -56,8 +54,13 @@ class GitHubAPIShell:
         user_infos["name"] = self.user.name
         user_infos["email"] = self.user.email
         user_infos["avatar_url"] = self.user.avatar_url
+        user_infos["company"] = self.user.company
         user_infos["bio"] = self.user.bio
+        user_infos["location"] = self.user.location
+        user_infos["html_url"] = self.user.html_url
         user_infos["ghchart_url"] = f"https://ghchart.rshah.org/{self.github_id}"
+        user_infos["followers"] = self.user.followers
+        user_infos["group_cnt"] = 0
         user_infos["languages"] = self.get_language_stat()
 
         return user_infos
