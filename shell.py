@@ -47,13 +47,20 @@ class GitHubAPIShell:
     """
 
     def __init__(self, argv):
-        self.g = Github(login_or_token="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")  # github api object
+        self.g = Github(login_or_token="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")  # github api object
         self.filepath = argv  # argv: Github ID를 담은 파일 경로
         self.user = None  # GitHub user 객체 담기 위함
         self.languages_url = list()
+        self.repo_objs = list()  # repo 객체 담기 위함 -> Commit data 를 가져오기 위함
 
     def run(self):
         gen = read_file(self.filepath)  # 파일 데이터 generator
+        # write_commit_info_in_json(gen)  # 유저 정보 csv 파일에 저장
+        self.write_repository_info_in_csv(gen)
+
+        return 0
+
+    def write_user_info_in_csv(self, gen):
         with open('./member.csv', 'w') as f:
             wr = csv.writer(f)
             wr.writerow(["Github_id", "Avatar_url", "User_name", "Company", "Bio", "Location", "User_github_url", \
@@ -61,9 +68,20 @@ class GitHubAPIShell:
             for github_id in gen:
                 self.user = self.g.get_user(github_id)
                 wr.writerow([value for _, value in self.get_user_info().items()])
-                print("끝")
 
-        return 0
+    def write_repository_info_in_csv(self, gen):
+        with open('./repository.csv', 'w') as f:
+            wr = csv.writer(f)
+            wr.writerow(
+                ["Repository_id", "Repo_name", "Repo_url", "Fork_count", "Stargazers_count", "Created_at", "Updated_at",
+                 "Github_id", "Repo_rank_id"])
+
+            repo_id = 1  # 순차적으로 repo id를 주기 위함
+            for github_id in gen:
+                self.user = self.g.get_user(github_id)
+                for _, values in self.get_repo_info().items():
+                    wr.writerow([repo_id] + [value for _, value in values.items()])
+                    repo_id += 1
 
     def get_user_info(self):
 
@@ -89,10 +107,12 @@ class GitHubAPIShell:
 
     def get_repo_info(self):
         """
-        레포 이름
-        유저 이름
-        최근 업데이트 날짜
-        모든 commit 정보
+        - 레포 이름
+        - 유저 url
+        - 레포 스타 개수
+        - 레포 생성 날짜
+        - 레포 업데이트 날짜
+        - 레포 사용 언어
 
         :return: repo_infos: 입력 깃헙 ID 의 public repo 의 정보를 dict 자료 형태로 리턴
         """
@@ -100,15 +120,21 @@ class GitHubAPIShell:
         repos = self.user.get_repos()
 
         for repo in repos:
-            updated = repo.updated_at  # repo update 시간
             self.languages_url.append(repo.languages_url)
+            self.repo_objs.append(repo)
             repo_infos[repo.full_name] = {
-                "repoName": repo.name,
-                "userName": self.user.name,
-                "updatedAt": "{0}-{1}-{2} {3}".format(updated.year, updated.month, updated.day,
-                                                      updated.time()),
-                "language_url": repo.languages_url,
-                "commitInfo": self.get_commits(repo)
+                "Repo_name": repo.name,
+                "Repo_url": repo.svn_url,
+                "Fork_count": repo.forks,
+                "Stargazers_count": repo.stargazers_count,
+                "Created_at": repo.created_at,
+                "Updated_at": repo.updated_at,
+                "Github_id": self.user.login,
+                "Repo_rank_id": 1,
+                # "updatedAt": "{0}-{1}-{2} {3}".format(updated.year, updated.month, updated.day,
+                #                                       updated.time()),
+                # "language_url": repo.languages_url,
+                # "commitInfo": self.get_commits(repo)
             }
 
         return repo_infos
