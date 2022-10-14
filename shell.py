@@ -2,7 +2,7 @@ import click
 from collections import OrderedDict
 from github import Github
 import json
-import urllib.request
+from urllib.request import Request, urlopen
 import sys
 import csv
 import random
@@ -57,6 +57,7 @@ class GitHubAPIShell:
         gen = read_file(self.filepath)  # 파일 데이터 generator
         # write_commit_info_in_json(gen)  # 유저 정보 csv 파일에 저장
         self.write_repository_info_in_csv(gen)
+        self.write_language_info_in_csv()
 
         return 0
 
@@ -82,6 +83,15 @@ class GitHubAPIShell:
                 for _, values in self.get_repo_info().items():
                     wr.writerow([repo_id] + [value for _, value in values.items()])
                     repo_id += 1
+
+    def write_language_info_in_csv(self):
+        with open('./language.csv', 'w') as f:
+            wr = csv.writer(f)
+            wr.writerow(["Language", "Repo_id", "Language_byte"])
+
+            for repo_name, lang_url in self.languages_url:
+                for lang, byte in self.get_language_info(lang_url).items():
+                    wr.writerow([lang, repo_name, byte])
 
     def get_user_info(self):
 
@@ -120,7 +130,7 @@ class GitHubAPIShell:
         repos = self.user.get_repos()
 
         for repo in repos:
-            self.languages_url.append(repo.languages_url)
+            self.languages_url.append((repo.name, repo.languages_url))
             self.repo_objs.append(repo)
             repo_infos[repo.full_name] = {
                 "Repo_name": repo.name,
@@ -171,8 +181,21 @@ class GitHubAPIShell:
 
         return return_data
 
-    def get_language_stat(self):
+    @staticmethod
+    def get_language_info(url):
+        """ 각 레포 마다 사용된 언어 정보
 
+        :return: 입력 깃헙 ID 의 public repo 에 사용된 언어 정보를 dict 자료 형태로 리턴
+        """
+
+        urlTicker = Request(url, headers={'User-Agent': 'Mozilla/5.0'})
+        return json.loads(urlopen(urlTicker).read())
+
+    def get_language_stat(self):
+        """ 사용자 언어 통계량 계산
+
+        :return: 깃헙 유저의 사용 언어별 퍼센트
+        """
         langs = dict()
         lang_sum = 0
         for url in self.languages_url:
