@@ -42,7 +42,7 @@ class GitHubAPIShell:
     def __init__(self, argv):
         self.g = Github(login_or_token="<token>")  # github api object
         self.header = {'Accept': 'application/vnd.github.v3+json',
-                       'Authorization': 'Bearer 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'}
+                       'Authorization': 'Bearer <token>'}
         self.filepath = argv  # argv: Github ID를 담은 파일 경로
         self.user = None  # GitHub user 객체 담기 위함
         self.languages_url = list()
@@ -51,10 +51,11 @@ class GitHubAPIShell:
     def run(self):
         start_time = time.time()
         gen = read_file(self.filepath)  # 파일 데이터 generator
-        # self.write_user_info_in_csv(gen)  # 유저 정보 csv 파일에 저장
+        self.write_user_info_in_csv(gen)  # 유저 정보 csv 파일에 저장
         self.write_repository_info_in_csv(gen)
-        # self.write_language_info_in_csv()
+        self.write_language_info_in_csv()
         self.write_commit_info_in_csv()
+        self.write_organization_info_in_csv(gen)
         end_time = time.time()
         print(round(end_time - start_time, 3))
 
@@ -65,9 +66,21 @@ class GitHubAPIShell:
             wr = csv.writer(f)
             wr.writerow(["Github_id", "Avatar_url", "User_name", "Company", "Bio", "Location", "User_github_url", \
                          "Ghchart_url", "Followers", "Level", "Group_cnt", "User_rank_id", "Super_github_id"])
+
             for github_id in gen:
                 self.user = self.g.get_user(github_id)
                 wr.writerow([value for _, value in self.get_user_info().items()])
+
+    def write_organization_info_in_csv(self, gen):
+        with open('./organization.csv', 'w') as f:
+            wr = csv.writer(f)
+            wr.writerow(["Organization_id", "Org_name", "Avatar_url", "Org_url", "Stargazers_count", "Followers",
+                         "Created_at", "Updated_at", "Org_rank_id", "Github_id"])
+
+            for github_id in gen:
+                org_infos = self.get_organization_info(github_id)
+                for info in org_infos:
+                    wr.writerow([value for _, value in info.items()])
 
     def write_repository_info_in_csv(self, gen):
         with open('./repository2.csv', 'w') as f:
@@ -106,7 +119,6 @@ class GitHubAPIShell:
                     commit_id += 1
 
     def get_user_info(self):
-
         user_infos = OrderedDict()
 
         user_infos["login"] = self.user.login
@@ -215,29 +227,61 @@ class GitHubAPIShell:
 
         return res.json()
 
+    def get_language_stat(self):
+        """ 사용자 언어 통계량 계산
 
-def get_language_stat(self):
-    """ 사용자 언어 통계량 계산
+        :return: 깃헙 유저의 사용 언어별 퍼센트
+        """
+        langs = dict()
+        lang_sum = 0
+        for url in self.languages_url:
+            repo_langs = requests.get(url, headers=self.header).json()
+            for lang in repo_langs.keys():
+                if lang in langs:
+                    langs[lang] += int(repo_langs[lang])
+                else:
+                    langs[lang] = int(repo_langs[lang])
+                lang_sum += int(repo_langs[lang])
 
-    :return: 깃헙 유저의 사용 언어별 퍼센트
-    """
-    langs = dict()
-    lang_sum = 0
-    for url in self.languages_url:
-        repo_langs = requests.get(url, headers=self.header).json()
-        for lang in repo_langs.keys():
-            if lang in langs:
-                langs[lang] += int(repo_langs[lang])
-            else:
-                langs[lang] = int(repo_langs[lang])
-            lang_sum += int(repo_langs[lang])
+        for lang in langs.keys():
+            langs[lang] = round((langs[lang] / lang_sum) * 100, 3)
 
-    for lang in langs.keys():
-        langs[lang] = round((langs[lang] / lang_sum) * 100, 3)
+        sorted_dict = sorted(langs.items(), key=lambda item: item[1], reverse=True)
 
-    sorted_dict = sorted(langs.items(), key=lambda item: item[1], reverse=True)
+        return sorted_dict
 
-    return sorted_dict
+    def get_organization_info(self, github_id):
+        return_data = list()
+
+        url = f"https://api.github.com/users/{github_id}/orgs"
+        orgs = requests.get(url, headers=self.header).json()
+        for org in orgs:
+            org_info = requests.get(org['url'], headers=self.header).json()
+
+            info = OrderedDict()
+            info["Organization_id"] = 1
+            info["Org_name"] = org_info["login"]
+            info["Avatar_url"] = org_info["avatar_url"]
+            info["Org_url"] = org_info["html_url"]
+            info["Stargazers_count"] = self.get_repo_star_count(org_info["repos_url"])
+            info["Followers"] = org_info["followers"]
+            info["Created_at"] = org_info["created_at"]
+            info["Updated_at"] = org_info["updated_at"]
+            info["Org_rank_id"] = 1
+            info["Github_id"] = github_id
+
+            return_data.append(info)
+
+        return return_data
+
+    def get_repo_star_count(self, url):
+        star_count = 0
+
+        repos = requests.get(url, headers=self.header).json()
+        for repo in repos:
+            star_count += int(repo["stargazers_count"])
+
+        return star_count
 
 
 @click.command()
