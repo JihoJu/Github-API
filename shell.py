@@ -7,6 +7,8 @@ import json
 import sys
 import csv
 import random
+from datetime import datetime
+from dateutil.relativedelta import relativedelta
 
 
 def write_commit_info_in_json(data, path):
@@ -51,11 +53,11 @@ class GitHubAPIShell:
     def run(self):
         start_time = time.time()
         gen = read_file(self.filepath)  # 파일 데이터 generator
-        self.write_user_info_in_csv(gen)  # 유저 정보 csv 파일에 저장
-        self.write_repository_info_in_csv(gen)
-        self.write_language_info_in_csv()
-        self.write_commit_info_in_csv()
-        self.write_organization_info_in_csv(gen)
+        # self.write_user_info_in_csv(gen)  # 유저 정보 csv 파일에 저장
+        # self.write_repository_info_in_csv(gen)
+        # self.write_language_info_in_csv()
+        self.write_commit_info_in_csv(gen)
+        # self.write_organization_info_in_csv(gen)
         end_time = time.time()
         print(round(end_time - start_time, 3))
 
@@ -95,8 +97,6 @@ class GitHubAPIShell:
                 for _, values in self.get_repo_info().items():
                     wr.writerow([repo_id] + [value for _, value in values.items()])
                     repo_id += 1
-                print(github_id)
-            print("-----")
 
     def write_language_info_in_csv(self):
         with open('./language2.csv', 'w') as f:
@@ -107,16 +107,37 @@ class GitHubAPIShell:
                 for lang, byte in self.get_language_info(lang_url).items():
                     wr.writerow([lang, repo_name, byte])
 
-    def write_commit_info_in_csv(self):
-        with open('./commit.csv', 'w') as f:
+    def write_commit_info_in_csv(self, gen):
+        now = datetime.now()
+        before_one_year = now - relativedelta(years=1)
+        commit_id = 1
+        with open('./commit2.csv', 'w') as f:
             wr = csv.writer(f)
             wr.writerow(["Commit_id", "Commit_msg", "Author", "Date", "Commit_url", "Repository_id"])
-
-            commit_id = 1  # 순차적으로 commit id를 주기 위함
-            for github_id, username, repo in self.repo_objs:
-                for commit_info in self.get_commits(github_id, username, repo):
-                    wr.writerow([commit_id] + [val for _, val in commit_info.items()])
-                    commit_id += 1
+            try:
+                for github_id in gen:
+                    url = f"https://api.github.com/users/{github_id}/repos"
+                    repos = requests.get(url, headers=self.header).json()
+                    for repo in repos:
+                        commits_url = repo["commits_url"].replace("{/sha}", "")
+                        params = {
+                            'since': str(before_one_year.isoformat()),
+                            'author': github_id
+                        }
+                        commits = requests.get(commits_url, headers=self.header, params=params).json()
+                        print(github_id, repo["full_name"], commits)
+                        for commit in commits:
+                            try:
+                                commit_message = " ".join(commit["commit"]["message"].split())
+                                wr.writerow(
+                                    [commit_id, commit_message, commit["author"]["login"],
+                                     commit["commit"]["author"]["date"],
+                                     commit["html_url"], repo["full_name"]])
+                                commit_id += 1
+                            except TypeError as te:
+                                print(te)
+            except Exception as e:
+                print(e)
 
     def get_user_info(self):
         user_infos = OrderedDict()
@@ -191,14 +212,16 @@ class GitHubAPIShell:
         :return: param 으로 전달 받은 repo 의 모든 commit 각 정보를 list 자료 형태로 리턴
         """
         return_data = list()
+        username = username.lower() if username is not None else ""
 
         try:
             for commit in repo.get_commits():
+                author_name = commit.commit.author.name.lower() if commit.commit.author.name is not None else " "
+                committer_name = commit.commit.committer.name.lower() if commit.commit.committer.name is not None else " "
+
                 if commit.commit.committer.name == "GitHub" or \
-                        (commit.commit.author.name.lower() != githubid.lower()
-                         and commit.commit.author.name.lower() != username.lower()
-                         and commit.commit.committer.name.lower() != githubid.lower()
-                         and commit.commit.committer.name.lower() != username.lower()):
+                        (author_name != githubid.lower() and author_name != username
+                         and committer_name != githubid.lower() and committer_name != username):
                     continue
 
                 commit_message = " ".join(commit.commit.message.split())
@@ -212,7 +235,8 @@ class GitHubAPIShell:
                     #                                  commit_date.time())
                 }
                 return_data.append(data)
-        except github.GithubException as e:
+        except Exception as e:
+            # print(commit.commit.author.name, commit.commit.committer.name, commit.commit.committer.name, username)
             print(repo.full_name, e)
 
         return return_data
