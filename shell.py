@@ -55,7 +55,7 @@ class GitHubAPIShell:
         gen = read_file(self.filepath)  # 파일 데이터 generator
         # self.write_user_info_in_csv(gen)  # 유저 정보 csv 파일에 저장
         # self.write_repository_info_in_csv(gen)
-        # self.write_language_info_in_csv()
+        # self.write_language_info_in_csv(gen)
         self.write_commit_info_in_csv(gen)
         # self.write_organization_info_in_csv(gen)
         end_time = time.time()
@@ -64,10 +64,11 @@ class GitHubAPIShell:
         return 0
 
     def write_user_info_in_csv(self, gen):
-        with open('./member.csv', 'w') as f:
+        with open('member.csv', 'w') as f:
             wr = csv.writer(f)
             wr.writerow(["Github_id", "Avatar_url", "User_name", "Company", "Bio", "Location", "User_github_url", \
-                         "Ghchart_url", "Followers", "Level", "Group_cnt", "User_rank_id", "Super_github_id"])
+                         "Ghchart_url", "Followers", "Level", "Exp", "Commit_count_acc", "Group_cnt", "User_rank_id",
+                         "Super_github_id", "Created_at", "Updated_at"])
 
             for github_id in gen:
                 self.user = self.g.get_user(github_id)
@@ -76,7 +77,7 @@ class GitHubAPIShell:
     def write_organization_info_in_csv(self, gen):
         with open('./organization.csv', 'w') as f:
             wr = csv.writer(f)
-            wr.writerow(["Organization_id", "Org_name", "Avatar_url", "Org_url", "Stargazers_count", "Followers",
+            wr.writerow(["Organization_id", "Org_name", "Avatar_url", "Org_url", "Stargazers_count", "Followers_count",
                          "Created_at", "Updated_at", "Org_rank_id", "Github_id"])
 
             for github_id in gen:
@@ -85,21 +86,64 @@ class GitHubAPIShell:
                     wr.writerow([value for _, value in info.items()])
 
     def write_repository_info_in_csv(self, gen):
-        with open('./repository2.csv', 'w') as f:
+        now = datetime.now()
+        before_three_year = now - relativedelta(years=3)
+
+        with open('./repository3.csv', 'w') as f:
             wr = csv.writer(f)
             wr.writerow(
                 ["Repository_id", "Repo_name", "Repo_url", "Fork_count", "Stargazers_count", "Created_at", "Updated_at",
                  "Github_id", "Repo_rank_id", "Issue_count", "Pr_count", "Commit_count"])
+            params = {'per_page': 100, 'since': str(before_three_year.isoformat())}
 
             repo_id = 1  # 순차적으로 repo id를 주기 위함
             for github_id in gen:
                 self.user = self.g.get_user(github_id)
-                for _, values in self.get_repo_info().items():
-                    wr.writerow([repo_id] + [value for _, value in values.items()])
-                    repo_id += 1
+                for i in range(1, 100):
+                    repos_url = f"https://api.github.com/users/{self.user.login}/repos?page={i}&per_page=100"
+                    repos = requests.get(repos_url, headers=self.header).json()
+                    if len(repos) == 0:
+                        break
+                    for repo in repos:
+                        commit_count, issue_count, pr_count = 0, 0, 0
+                        for page in range(1, 100):
+                            try:
+                                c_cnt = len(requests.get(repo["commits_url"].replace("{/sha}", "") + f"?page={page}",
+                                                         headers=self.header, params=params).json())
+                                i_cnt = len(
+                                    requests.get(
+                                        repo["issues_url"].replace("{/number}", "") + f"?state=all&page={page}",
+                                        headers=self.header, params=params).json())
+                                p_cnt = len(
+                                    requests.get(repo["pulls_url"].replace("{/number}", "") + f"?state=all&page={page}",
+                                                 headers=self.header, params=params).json())
+                                if c_cnt == 0 and i_cnt == 0 and p_cnt == 0:
+                                    break
+                                commit_count += c_cnt
+                                issue_count += i_cnt
+                                pr_count += p_cnt
+                            except Exception as ee:
+                                print(github_id, ee)
+                        self.languages_url.append(repo["languages_url"])
+                        wr.writerow(
+                            [repo_id, repo["name"], repo["html_url"], repo["forks_count"], repo["stargazers_count"],
+                             repo["created_at"], repo["updated_at"], github_id, 1, issue_count, pr_count,
+                             commit_count])
+                        repo_id += 1
+                print(github_id)
 
-    def write_language_info_in_csv(self):
-        with open('./language2.csv', 'w') as f:
+    def write_language_info_in_csv(self, gen):
+        for github_id in gen:
+            self.user = self.g.get_user(github_id)
+            for i in range(1, 100):
+                repos_url = f"https://api.github.com/users/{self.user.login}/repos?page={i}&per_page=100"
+                repos = requests.get(repos_url, headers=self.header).json()
+                if len(repos) == 0:
+                    break
+                for repo in repos:
+                    self.languages_url.append((repo["full_name"], repo["languages_url"]))
+                    print((repo["full_name"], repo["languages_url"]))
+        with open('./language3.csv', 'w') as f:
             wr = csv.writer(f)
             wr.writerow(["Language", "Repo_id", "Language_byte"])
 
@@ -109,33 +153,44 @@ class GitHubAPIShell:
 
     def write_commit_info_in_csv(self, gen):
         now = datetime.now()
-        before_one_year = now - relativedelta(years=1)
+        before_three_year = now - relativedelta(years=3)
         commit_id = 1
-        with open('./commit2.csv', 'w') as f:
+
+        with open('./commit.csv', 'w') as f:
             wr = csv.writer(f)
-            wr.writerow(["Commit_id", "Commit_msg", "Author", "Date", "Commit_url", "Repository_id"])
+            wr.writerow(["Commit_id", "Commit_msg", "Author", "Date", "Commit_url", "Codeline_count", "Repository_id"])
             try:
                 for github_id in gen:
                     url = f"https://api.github.com/users/{github_id}/repos"
                     repos = requests.get(url, headers=self.header).json()
-                    for repo in repos:
-                        commits_url = repo["commits_url"].replace("{/sha}", "")
-                        params = {
-                            'since': str(before_one_year.isoformat()),
-                            'author': github_id
-                        }
-                        commits = requests.get(commits_url, headers=self.header, params=params).json()
-                        print(github_id, repo["full_name"], commits)
-                        for commit in commits:
-                            try:
-                                commit_message = " ".join(commit["commit"]["message"].split())
-                                wr.writerow(
-                                    [commit_id, commit_message, commit["author"]["login"],
-                                     commit["commit"]["author"]["date"],
-                                     commit["html_url"], repo["full_name"]])
-                                commit_id += 1
-                            except TypeError as te:
-                                print(te)
+                    try:
+                        for repo in repos:
+                            commits_url = repo["commits_url"].replace("{/sha}", "")
+                            params = {
+                                'since': str(before_three_year.isoformat()),
+                                'author': github_id,
+                                'per_page': 100,
+                            }
+                            for page in range(1, 100):
+                                commits = requests.get(commits_url + f"?page={page}", headers=self.header,
+                                                       params=params).json()
+                                if len(commits) == 0:
+                                    break
+                                for commit in commits:
+                                    commit_sha_url = f"https://api.github.com/repos/{repo['full_name']}/commits/{commit['sha']}"
+                                    codeline_count = requests.get(commit_sha_url, headers=self.header).json()
+                                    try:
+                                        commit_message = " ".join(commit["commit"]["message"].split())
+                                        wr.writerow(
+                                            [commit_id, commit_message, commit["author"]["login"],
+                                             commit["commit"]["author"]["date"],
+                                             commit["html_url"], codeline_count["stats"]["total"], repo["full_name"]])
+                                        commit_id += 1
+                                    except TypeError as te:
+                                        print(te)
+                    except Exception as e2:
+                        print(e2)
+                    print(github_id)
             except Exception as e:
                 print(e)
 
@@ -153,9 +208,13 @@ class GitHubAPIShell:
         user_infos["ghchart_url"] = f"https://ghchart.rshah.org/{self.user.login}"
         user_infos["followers"] = self.user.followers
         user_infos["level"] = 1
+        user_infos["exp"] = 1
+        user_infos["commit_count_acc"] = random.randint(0, 20)
         user_infos["group_cnt"] = 0
         user_infos["user_rank_id"] = 0
         user_infos["super_github_id"] = random.randint(1, 50)
+        user_infos["created_at"] = self.user.created_at
+        user_infos["updated_at"] = self.user.updated_at
         # user_infos["languages"] = self.get_language_stat()
 
         return user_infos
@@ -176,7 +235,6 @@ class GitHubAPIShell:
 
         for repo in repos:
             self.languages_url.append((repo.name, repo.languages_url))
-            self.repo_objs.append((self.user.login, self.user.name, repo))
 
             repo_infos[repo.full_name] = {
                 "Repo_name": repo.name,
@@ -295,7 +353,7 @@ class GitHubAPIShell:
             info["Github_id"] = github_id
 
             return_data.append(info)
-
+        print(github_id)
         return return_data
 
     def get_repo_star_count(self, url):
